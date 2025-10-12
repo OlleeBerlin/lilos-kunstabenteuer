@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hintergrundkreis -->
+  <circle cx="100" cy="100" r="100" fill="#FAFAFA" stroke="#00BCD4" stroke-width="2"/>
+  
+  <!-- Lilo Charakter -->
+  <!-- Gesicht -->
+  <ellipse cx="100" cy="85" rx="35" ry="40" fill="#FFCCBC"/>
+  
+  <!-- Haare -->
+  <path d="M 65 50 Q 70 30 85 45 Q 90 35 100 40 Q 110 35 115 45 Q 130 30 135 50 Q 135 70 125 75 Q 125 65 120 70 Q 100 60 80 70 Q 75 65 75 75 Q 65 70 65 50 Z" fill="#66BB6A"/>
+  
+  <!-- Augen -->
+  <circle cx="90" cy="75" r="6" fill="#263238"/>
+  <circle cx="110" cy="75" r="6" fill="#263238"/>
+  <circle cx="92" cy="73" r="2" fill="#FAFAFA"/>
+  <circle cx="112" cy="73" r="2" fill="#FAFAFA"/>
+  
+  <!-- Augenbrauen -->
+  <path d="M 82 68 Q 90 65 98 68" stroke="#66BB6A" stroke-width="2" fill="none"/>
+  <path d="M 102 68 Q 110 65 118 68" stroke="#66BB6A" stroke-width="2" fill="none"/>
+  
+  <!-- Nase -->
+  <ellipse cx="100" cy="85" rx="2" ry="3" fill="#FFAB91"/>
+  
+  <!-- Mund -->
+  <path d="M 92 95 Q 100 102 108 95" stroke="#FF9800" stroke-width="2" fill="none"/>
+  
+  <!-- Wangenröte -->
+  <circle cx="75" cy="90" r="8" fill="#FF9800" opacity="0.3"/>
+  <circle cx="125" cy="90" r="8" fill="#FF9800" opacity="0.3"/>
+  
+  <!-- Künstlerische Elemente -->
+  <!-- Pinsel im Haar -->
+  <path d="M 125 45 L 130 35" stroke="#263238" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 130 35 L 135 30" stroke="#FF9800" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Farbkleckse -->
+  <circle cx="40" cy="140" r="6" fill="#00BCD4" opacity="0.7"/>
+  <circle cx="160" cy="150" r="4" fill="#FF9800" opacity="0.7"/>
+  <circle cx="30" cy="170" r="5" fill="#66BB6A" opacity="0.7"/>
+  
+  <!-- Schriftzug -->
+  <text x="100" y="160" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="600" font-size="12" fill="#263238">LILOS KUNSTABENTEUER</text>
+</svg>
