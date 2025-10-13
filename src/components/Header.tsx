@@ -9,11 +9,8 @@ export default function Header() {
 
   const navigation = [
     { name: 'Start', href: '/' },
-    { name: 'Über Lilo', href: '/ueber-lilo' },
     { name: 'Das Konzept', href: '/konzept' },
-    { name: 'Partner', href: '/partner' },
     { name: 'Kontakt', href: '/kontakt' },
-    { name: 'Presse', href: '/presse' },
   ];
 
   return (
