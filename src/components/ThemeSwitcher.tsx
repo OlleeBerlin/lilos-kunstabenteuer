@@ -13,6 +13,8 @@ interface Theme {
     accentHover: string;
     background?: string;
     foreground?: string;
+    cardBg?: string;
+    borderColor?: string;
   };
 }
 
@@ -59,8 +61,10 @@ const themes: Theme[] = [
       primaryHover: '#00C4E6',
       secondaryHover: '#5FE65F',
       accentHover: '#FF9F2E',
-      background: '#1a1a1a',
+      background: '#2F5D50',
       foreground: '#FAFAFA',
+      cardBg: '#234739',
+      borderColor: '#3A6E5F',
     },
   },
 ];
@@ -94,10 +98,14 @@ export default function ThemeSwitcher() {
     if (theme.colors.background && theme.colors.foreground) {
       root.style.setProperty('--background', theme.colors.background);
       root.style.setProperty('--foreground', theme.colors.foreground);
+      root.style.setProperty('--card-bg', theme.colors.cardBg || theme.colors.background);
+      root.style.setProperty('--border-color', theme.colors.borderColor || theme.colors.foreground);
     } else {
       // Reset zu Standard
       root.style.setProperty('--background', '#FAFAFA');
       root.style.setProperty('--foreground', '#263238');
+      root.style.setProperty('--card-bg', '#FFFFFF');
+      root.style.setProperty('--border-color', '#E5E7EB');
     }
   };
 
