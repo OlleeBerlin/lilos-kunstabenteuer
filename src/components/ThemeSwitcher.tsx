@@ -72,6 +72,22 @@ const themes: Theme[] = [
       borderColor: '#3A6E5F',
     },
   },
+  {
+    name: 'Spurs',
+    logo: '/logo.svg',
+    colors: {
+      primary: '#DA907B',
+      secondary: '#46564D',
+      accent: '#DCD9C6',
+      primaryHover: '#C87D68',
+      secondaryHover: '#3A463E',
+      accentHover: '#D4D0B8',
+      background: '#C7E1E8',
+      foreground: '#282C36',
+      cardBg: '#FFFFFF',
+      borderColor: '#B8D4DB',
+    },
+  },
 ];
 
 export default function ThemeSwitcher() {
