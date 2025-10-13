@@ -75,13 +75,13 @@ const themes: Theme[] = [
   },
   {
     name: 'Spurs',
-    logo: '/logo.svg',
+    logo: '/logo-spurs.svg',
     colors: {
-      primary: '#DA907B',
-      secondary: '#46564D',
+      primary: '#B85450',
+      secondary: '#2D5016',
       accent: '#DCD9C6',
-      primaryHover: '#C87D68',
-      secondaryHover: '#3A463E',
+      primaryHover: '#A04743',
+      secondaryHover: '#1F350E',
       accentHover: '#D4D0B8',
       background: '#C7E1E8',
       foreground: '#282C36',
