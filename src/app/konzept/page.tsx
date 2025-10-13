@@ -112,8 +112,9 @@ export default function Konzept() {
               <div className="space-y-4">
                 <p className="text-neutral-600 leading-relaxed">
                   Alica bringt ihre Leidenschaft für Kunst und ihre Erfahrung in der 
-                  kreativen Bildung in das Projekt ein. Sie ist verantwortlich für die 
-                  künstlerische Ausrichtung und die Entwicklung der Charaktere.
+                  Kunstgeschichte und der kreativen Bildung in das Projekt ein. Sie ist 
+                  verantwortlich für die künstlerische Ausrichtung und die Entwicklung 
+                  der Charaktere.
                 </p>
                 <div className="pt-4 border-t border-neutral-200">
                   <h4 className="font-medium text-foreground mb-2">Expertise:</h4>
