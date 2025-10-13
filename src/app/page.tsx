@@ -22,12 +22,13 @@ export default function Home() {
             
             {/* Hauptüberschrift */}
             <h1 className="font-heading font-bold text-5xl md:text-7xl text-foreground mb-8">
-              Lilos Kunstabenteuer
+              Kunst für die 
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Generation Digital</span>
             </h1>
             
             {/* Untertitel */}
             <p className="text-2xl md:text-3xl text-foreground/80 mb-16 max-w-4xl mx-auto leading-relaxed">
-              Wir bringen Kindern und Jugendlichen die Welt der Kunst auf moderne und spannende Weise näher
+              Mit LILO entdecken Kinder und Jugendliche große Künstler, faszinierende Epochen sowie spannende Museen und Ausstellungen in ihrer digitalen Welt.
             </p>
             
             {/* CTAs */}
