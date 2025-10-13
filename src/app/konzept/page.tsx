@@ -23,7 +23,7 @@ export default function Konzept() {
             <h1 className="font-heading font-bold text-4xl md:text-6xl text-foreground mb-8">
               Das Konzept
             </h1>
-            <p className="text-xl text-neutral-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-foreground/80 max-w-4xl mx-auto leading-relaxed">
               Mit Lilos Kunstabenteuer vermitteln wir Kindern und Jugendlichen die Faszination 
               für Kunst über moderne digitale Kanäle.
             </p>
@@ -36,7 +36,7 @@ export default function Konzept() {
                 <h2 className="font-heading font-semibold text-2xl md:text-3xl text-foreground mb-4">
                   Unsere Vision
                 </h2>
-                <p className="text-lg text-neutral-600 leading-relaxed">
+                <p className="text-lg text-foreground/80 leading-relaxed">
                   Wir möchten Kindern und Jugendlichen im Alter von 8-14 Jahren die Welt der Kunst 
                   auf eine moderne, altersgerechte und spannende Weise näherbringen. 
                   Durch die Kombination von traditioneller Kunstbildung und zeitgemäßer 
@@ -48,7 +48,7 @@ export default function Konzept() {
                 <h2 className="font-heading font-semibold text-2xl md:text-3xl text-foreground mb-4">
                   Zielgruppe & Plattformen
                 </h2>
-                <p className="text-lg text-neutral-600 leading-relaxed">
+                <p className="text-lg text-foreground/80 leading-relaxed">
                   Unser Content richtet sich primär an Kinder und Jugendliche zwischen 8 und 14 Jahren. 
                   Wir sind auf YouTube, Instagram und TikTok aktiv und passen unsere Inhalte 
                   spezifisch an die jeweilige Plattform und deren Nutzerverhalten an.
@@ -59,7 +59,7 @@ export default function Konzept() {
                 <h2 className="font-heading font-semibold text-2xl md:text-3xl text-foreground mb-4">
                   Pädagogischer Ansatz
                 </h2>
-                <p className="text-lg text-neutral-600 leading-relaxed">
+                <p className="text-lg text-foreground/80 leading-relaxed">
                   Alle Inhalte werden von erfahrenen Pädagogen entwickelt und sind darauf ausgelegt, 
                   sowohl bildend als auch unterhaltsam zu sein. Wir kombinieren Kunstgeschichte, 
                   kreative Techniken und moderne Medienkompetenz in einem ganzheitlichen Ansatz.
@@ -72,11 +72,11 @@ export default function Konzept() {
               <div className="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl p-12 text-center">
                 <div className="space-y-6">
                   <div className="text-6xl font-bold text-primary">8-14</div>
-                  <div className="text-xl text-neutral-600">Jahre Zielgruppe</div>
+                  <div className="text-xl text-foreground/80">Jahre Zielgruppe</div>
                   <div className="w-full h-px bg-gradient-to-r from-transparent via-primary to-transparent"></div>
                   <div className="text-4xl font-bold text-secondary">3</div>
-                  <div className="text-lg text-neutral-600">Plattformen</div>
-                  <div className="text-sm text-neutral-700">YouTube • Instagram • TikTok</div>
+                  <div className="text-lg text-foreground/80">Plattformen</div>
+                  <div className="text-sm text-foreground/80">YouTube • Instagram • TikTok</div>
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Konzept() {
             <h2 className="font-heading font-bold text-4xl md:text-5xl text-foreground mb-6">
               Die Gründer
             </h2>
-            <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+            <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
               Hinter Lilos Kunstabenteuer stehen zwei leidenschaftliche Menschen mit 
               umfassender Erfahrung in Bildung, Kunst und Medien.
             </p>
@@ -110,7 +110,7 @@ export default function Konzept() {
                 <p className="text-primary font-medium">Co-Gründerin & Kreativdirektorin</p>
               </div>
               <div className="space-y-4">
-                <p className="text-neutral-600 leading-relaxed">
+                <p className="text-foreground/80 leading-relaxed">
                   Alica bringt ihre Leidenschaft für Kunst und ihre Erfahrung in der 
                   Kunstgeschichte und der kreativen Bildung in das Projekt ein. Sie ist 
                   verantwortlich für die künstlerische Ausrichtung und die Entwicklung 
@@ -118,7 +118,7 @@ export default function Konzept() {
                 </p>
                 <div className="pt-4 border-t border-neutral-200">
                   <h4 className="font-medium text-foreground mb-2">Expertise:</h4>
-                  <ul className="text-sm text-neutral-600 space-y-1">
+                  <ul className="text-sm text-foreground/80 space-y-1">
                     <li>• Kunstgeschichte & Museologie</li>
                     <li>• Kreative Bildung für Kinder</li>
                     <li>• Charakterentwicklung & Storytelling</li>
@@ -139,14 +139,14 @@ export default function Konzept() {
                 <p className="text-secondary font-medium">Co-Gründer & Projektleiter</p>
               </div>
               <div className="space-y-4">
-                <p className="text-neutral-600 leading-relaxed">
+                <p className="text-foreground/80 leading-relaxed">
                   Oliver bringt seine Erfahrung in der Medienproduktion und 
                   Geschäftsentwicklung ein. Er ist verantwortlich für die strategische 
                   Ausrichtung und die technische Umsetzung der digitalen Inhalte.
                 </p>
                 <div className="pt-4 border-t border-neutral-200">
                   <h4 className="font-medium text-foreground mb-2">Expertise:</h4>
-                  <ul className="text-sm text-neutral-600 space-y-1">
+                  <ul className="text-sm text-foreground/80 space-y-1">
                     <li>• Medienproduktion & Video</li>
                     <li>• Geschäftsentwicklung</li>
                     <li>• Technische Umsetzung</li>

@@ -48,7 +48,7 @@ export default function KontaktForm() {
             <h1 className="font-heading font-bold text-4xl md:text-6xl text-foreground mb-8">
               Kontakt
             </h1>
-            <p className="text-xl md:text-2xl text-neutral-600 max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl text-foreground/80 max-w-4xl mx-auto">
               Haben Sie Fragen, möchten Partner werden oder einfach nur Hallo sagen? 
               Wir freuen uns auf Ihre Nachricht!
             </p>
@@ -137,7 +137,7 @@ export default function KontaktForm() {
                   />
                 </div>
 
-                <div className="text-sm text-neutral-600">
+                <div className="text-sm text-foreground/80">
                   Mit dem Absenden stimmen Sie unserer{' '}
                   <a href="/datenschutz" className="text-primary hover:text-primary-hover underline">
                     Datenschutzerklärung
@@ -187,7 +187,7 @@ export default function KontaktForm() {
                   <a href="mailto:info@liloskunstabenteuer.de" className="text-primary hover:text-primary-hover text-lg">
                     info@liloskunstabenteuer.de
                   </a>
-                      <p className="text-neutral-600 mt-2">
+                      <p className="text-foreground/80 mt-2">
                         Wir antworten in der Regel innerhalb von 24-48 Stunden.
                       </p>
                     </div>
@@ -207,14 +207,14 @@ export default function KontaktForm() {
                       <div className="space-y-3">
                         <div>
                           <p className="font-medium text-foreground">Alica Sumbadze</p>
-                          <p className="text-neutral-600">Co-Gründerin & Kreativdirektorin</p>
+                          <p className="text-foreground/80">Co-Gründerin & Kreativdirektorin</p>
                           <a href="mailto:alica@liloskunstabenteuer.de" className="text-secondary hover:text-secondary-hover">
                             alica@liloskunstabenteuer.de
                           </a>
                         </div>
                         <div>
                           <p className="font-medium text-foreground">Oliver Stöcker</p>
-                          <p className="text-neutral-600">Co-Gründer & Projektleiter</p>
+                          <p className="text-foreground/80">Co-Gründer & Projektleiter</p>
                           <a href="mailto:oliver@liloskunstabenteuer.de" className="text-secondary hover:text-secondary-hover">
                             oliver@liloskunstabenteuer.de
                           </a>
@@ -238,7 +238,7 @@ export default function KontaktForm() {
                         <a href="#" className="block text-accent hover:text-accent-hover">
                           @liloskunstabenteuer
                         </a>
-                        <p className="text-neutral-600">
+                        <p className="text-foreground/80">
                           Folgen Sie uns für Updates und Einblicke in unsere Arbeit.
                         </p>
                       </div>

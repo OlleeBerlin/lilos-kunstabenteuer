@@ -26,7 +26,7 @@ export default function Home() {
             </h1>
             
             {/* Untertitel */}
-            <p className="text-2xl md:text-3xl text-neutral-600 mb-16 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-2xl md:text-3xl text-foreground/80 mb-16 max-w-4xl mx-auto leading-relaxed">
               Wir bringen Kindern und Jugendlichen die Welt der Kunst auf moderne und spannende Weise näher
             </p>
             
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
             
             {/* Zusätzliche Info */}
-            <div className="mt-16 text-neutral-700">
+            <div className="mt-16 text-foreground/70">
               <p className="text-lg">
                 Wir bringen Museen, Bildung und moderne Medien zusammen
               </p>
