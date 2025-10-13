@@ -10,7 +10,7 @@ export default function Impressum() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-neutral-light to-white py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-background py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="font-heading font-bold text-4xl md:text-5xl text-foreground mb-6">
@@ -25,7 +25,7 @@ export default function Impressum() {
       </section>
 
       {/* Content */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             
@@ -35,7 +35,7 @@ export default function Impressum() {
                 Anbieter
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-2">
                   <strong>Oliver Stöcker</strong>
                 </p>
@@ -55,7 +55,7 @@ export default function Impressum() {
                 Kontakt
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-2">
                   <strong>E-Mail:</strong> info@liloskunstabenteuer.de
                 </p>
@@ -71,7 +71,7 @@ export default function Impressum() {
                 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-2">
                   Oliver Stöcker
                 </p>
@@ -91,7 +91,7 @@ export default function Impressum() {
                 Streitschlichtung
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
                   <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
@@ -116,7 +116,7 @@ export default function Impressum() {
                 Haftung für Inhalte
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen 
                   Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind 
@@ -141,7 +141,7 @@ export default function Impressum() {
                 Haftung für Links
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir 
                   keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine 
@@ -165,7 +165,7 @@ export default function Impressum() {
                 Urheberrecht
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten 
                   unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, 
@@ -191,7 +191,7 @@ export default function Impressum() {
                 Bildnachweis
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700">
                   Soweit nicht anders angegeben, stammen alle verwendeten Bilder und Grafiken 
                   von Lilos Kunstabenteuer oder wurden unter freien Lizenzen (z.B. Creative Commons) 

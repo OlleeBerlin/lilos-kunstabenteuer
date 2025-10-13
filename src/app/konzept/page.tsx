@@ -17,7 +17,7 @@ export default function Konzept() {
   return (
     <div className="min-h-screen">
       {/* Projekt-Erklärung */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="font-heading font-bold text-4xl md:text-6xl text-foreground mb-8">
@@ -85,7 +85,7 @@ export default function Konzept() {
       </section>
 
       {/* Gründer-Vorstellung */}
-      <section className="py-20 bg-neutral-light">
+      <section className="py-20 bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-heading font-bold text-4xl md:text-5xl text-foreground mb-6">
@@ -99,7 +99,7 @@ export default function Konzept() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Alica Sumbadze */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-card-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-border-color">
               <div className="text-center mb-6">
                 <div className="w-32 h-32 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-4xl font-bold text-primary">AS</span>
@@ -128,7 +128,7 @@ export default function Konzept() {
             </div>
             
             {/* Oliver Stöcker */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-card-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-border-color">
               <div className="text-center mb-6">
                 <div className="w-32 h-32 bg-gradient-to-br from-secondary/20 to-accent/20 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-4xl font-bold text-secondary">OS</span>
@@ -167,7 +167,7 @@ export default function Konzept() {
               </p>
               <Link
                 href="/kontakt"
-                className="bg-white text-primary hover:bg-neutral-100 px-8 py-3 rounded-full font-medium transition-colors duration-200 inline-block"
+                className="bg-card-bg text-primary hover:bg-neutral-100 px-8 py-3 rounded-full font-medium transition-colors duration-200 inline-block border border-border-color"
               >
                 Kontakt aufnehmen
               </Link>

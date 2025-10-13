@@ -10,7 +10,7 @@ export default function Datenschutz() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-neutral-light to-white py-16">
+      <section className="bg-gradient-to-br from-primary/10 to-background py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="font-heading font-bold text-4xl md:text-5xl text-foreground mb-6">
@@ -25,7 +25,7 @@ export default function Datenschutz() {
       </section>
 
       {/* Content */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             
@@ -57,7 +57,7 @@ export default function Datenschutz() {
                 2. Datenerfassung auf dieser Website
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <h3 className="font-heading font-semibold text-lg text-foreground mb-4">
                   Wer ist verantwortlich für die Datenerfassung auf dieser Website?
                 </h3>
@@ -105,7 +105,7 @@ export default function Datenschutz() {
                 3. Allgemeine Hinweise und Pflichtinformationen
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <h3 className="font-heading font-semibold text-lg text-foreground mb-4">
                   Datenschutz
                 </h3>
@@ -134,7 +134,7 @@ export default function Datenschutz() {
                 4. Datenerfassung auf dieser Website
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <h3 className="font-heading font-semibold text-lg text-foreground mb-4">
                   Server-Log-Dateien
                 </h3>
@@ -162,7 +162,7 @@ export default function Datenschutz() {
                 5. Kontaktformular
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben 
                   aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten 
@@ -191,7 +191,7 @@ export default function Datenschutz() {
                 6. Social Media
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <h3 className="font-heading font-semibold text-lg text-foreground mb-4">
                   Instagram
                 </h3>
@@ -233,7 +233,7 @@ export default function Datenschutz() {
                 7. Cookies
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   Unsere Internetseiten verwenden so genannte „Cookies". Cookies sind kleine Textdateien 
                   und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend 
@@ -291,7 +291,7 @@ export default function Datenschutz() {
                 9. Kontakt bei Datenschutzfragen
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
                   <strong>Verantwortlicher:</strong> Oliver Stöcker
                 </p>
@@ -310,7 +310,7 @@ export default function Datenschutz() {
                 10. Änderungen dieser Datenschutzerklärung
               </h2>
               
-              <div className="bg-neutral-light p-6 rounded-lg">
+              <div className="bg-card-bg border border-border-color p-6 rounded-lg">
                 <p className="text-neutral-700">
                   Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren, 
                   damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um 

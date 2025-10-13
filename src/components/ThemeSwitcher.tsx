@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 
 interface Theme {
   name: string;
+  logo?: string;
   colors: {
     primary: string;
     secondary: string;
@@ -107,6 +108,16 @@ export default function ThemeSwitcher() {
       root.style.setProperty('--card-bg', '#FFFFFF');
       root.style.setProperty('--border-color', '#E5E7EB');
     }
+    
+    // Logo-Switching
+    if (theme.logo) {
+      root.setAttribute('data-theme-logo', theme.logo);
+    } else {
+      root.removeAttribute('data-theme-logo');
+    }
+    
+    // Theme-Name als Data-Attribut für CSS
+    root.setAttribute('data-theme', theme.name.toLowerCase().replace(/\s+/g, '-'));
   };
 
   const handleThemeChange = (index: number) => {

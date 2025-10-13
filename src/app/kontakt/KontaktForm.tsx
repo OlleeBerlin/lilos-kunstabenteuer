@@ -57,7 +57,7 @@ export default function KontaktForm() {
       </section>
 
       {/* Kontaktformular & Details */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Kontaktformular */}
