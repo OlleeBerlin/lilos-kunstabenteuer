@@ -12,14 +12,14 @@ export default function Home() {
           <div className="text-center">
             <AnimatedSection direction="up" delay={200}>
               <div className="mb-8">
-                <Image
+        <Image
                   src="/logo.svg"
                   alt="Lilos Kunstabenteuer Logo"
                   width={200}
                   height={200}
                   className="mx-auto h-32 w-32 md:h-48 md:w-48 logo-float"
-                  priority
-                />
+          priority
+        />
               </div>
             </AnimatedSection>
             
@@ -30,9 +30,9 @@ export default function Home() {
             </AnimatedSection>
             
             <AnimatedSection direction="up" delay={600}>
-              <p className="text-xl md:text-2xl text-neutral-600 mb-8 max-w-3xl mx-auto">
-                Die erste deutsche Marke für digitale Kunstbildung für Kinder und Jugendliche. 
-                Entdecke mit Lilo die Welt der Kunst auf YouTube, Instagram und TikTok!
+              <p className="text-xl md:text-2xl text-neutral-600 mb-8 max-w-4xl mx-auto">
+                Die erste professionelle Marke für digitale Kunstbildung für Kinder und Jugendliche. 
+                Wir bringen Museen, Bildung und moderne Medien zusammen.
               </p>
             </AnimatedSection>
             
@@ -42,15 +42,15 @@ export default function Home() {
                   href="/konzept"
                   className="btn-primary bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-full font-medium transition-colors duration-200"
                 >
-                  Mehr erfahren
+                  Unser Konzept
                 </Link>
                 <Link
                   href="/kontakt"
                   className="hover-lift border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-full font-medium transition-colors duration-200"
                 >
-                  Kontakt aufnehmen
+                  Partner werden
                 </Link>
-              </div>
+        </div>
             </AnimatedSection>
             
             {/* Social Media Buttons */}
@@ -64,8 +64,8 @@ export default function Home() {
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                 </svg>
-              </a>
-                <a
+        </a>
+        <a
                   href="#"
                   className="hover-scale bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white p-3 rounded-full transition-colors duration-200"
                   aria-label="Instagram"
@@ -73,8 +73,8 @@ export default function Home() {
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                 </svg>
-              </a>
-                <a
+        </a>
+        <a
                   href="#"
                   className="hover-scale bg-black hover:bg-gray-800 text-white p-3 rounded-full transition-colors duration-200"
                   aria-label="TikTok"
@@ -89,8 +89,68 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Was ist Lilos Kunstabenteuer? */}
+      {/* Team Vertrauen */}
       <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection direction="up" delay={200}>
+            <div className="text-center mb-12">
+              <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-6">
+                Vertrauen Sie unserem Team
+              </h2>
+              <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+                Erfahrene Pädagogen und Kreative mit Leidenschaft für Kunst und Bildung
+              </p>
+            </div>
+          </AnimatedSection>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <AnimatedSection direction="up" delay={400}>
+              <HoverCard className="text-center p-6 rounded-lg bg-gradient-to-br from-primary/5 to-transparent">
+                <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-heading font-semibold text-xl mb-3">Erfahrene Pädagogen</h3>
+                <p className="text-neutral-600">
+                  Unser Team bringt jahrelange Erfahrung in der Kinder- und Jugendbildung mit.
+                </p>
+              </HoverCard>
+            </AnimatedSection>
+            
+            <AnimatedSection direction="up" delay={600}>
+              <HoverCard className="text-center p-6 rounded-lg bg-gradient-to-br from-secondary/5 to-transparent">
+                <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m0 0V1a1 1 0 011-1h2a1 1 0 011 1v18a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1h2z" />
+                  </svg>
+                </div>
+                <h3 className="font-heading font-semibold text-xl mb-3">Kunst-Expertise</h3>
+                <p className="text-neutral-600">
+                  Fundierte Kenntnisse in Kunstgeschichte, Museologie und kreativer Bildung.
+                </p>
+              </HoverCard>
+            </AnimatedSection>
+            
+            <AnimatedSection direction="up" delay={800}>
+              <HoverCard className="text-center p-6 rounded-lg bg-gradient-to-br from-accent/5 to-transparent">
+                <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  </svg>
+                </div>
+                <h3 className="font-heading font-semibold text-xl mb-3">Medienkompetenz</h3>
+                <p className="text-neutral-600">
+                  Professionelle Erfahrung in Social Media, Video-Produktion und digitaler Bildung.
+                </p>
+              </HoverCard>
+            </AnimatedSection>
+          </div>
+        </div>
+      </section>
+
+      {/* Was ist Lilos Kunstabenteuer? */}
+      <section className="py-16 bg-neutral-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection direction="up" delay={200}>
             <div className="text-center mb-12">
@@ -151,8 +211,79 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Professionelle Fakten */}
+      <section className="py-16 bg-gradient-to-r from-primary/5 to-secondary/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection direction="up" delay={200}>
+            <div className="text-center mb-12">
+              <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-6">
+                Professionelle Qualität
+              </h2>
+              <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+                Unsere Standards für Museen und Bildungseinrichtungen
+              </p>
+            </div>
+          </AnimatedSection>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <AnimatedSection direction="up" delay={300}>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2">8-14</div>
+                <div className="text-sm text-neutral-600 uppercase tracking-wide">Zielgruppe</div>
+                <div className="text-neutral-500 mt-1">Jahre</div>
+              </div>
+            </AnimatedSection>
+            
+            <AnimatedSection direction="up" delay={400}>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-secondary mb-2">3</div>
+                <div className="text-sm text-neutral-600 uppercase tracking-wide">Plattformen</div>
+                <div className="text-neutral-500 mt-1">YouTube, Instagram, TikTok</div>
+              </div>
+            </AnimatedSection>
+            
+            <AnimatedSection direction="up" delay={500}>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-accent mb-2">DSGVO</div>
+                <div className="text-sm text-neutral-600 uppercase tracking-wide">Konform</div>
+                <div className="text-neutral-500 mt-1">Datenschutz</div>
+              </div>
+            </AnimatedSection>
+            
+            <AnimatedSection direction="up" delay={600}>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2">100%</div>
+                <div className="text-sm text-neutral-600 uppercase tracking-wide">Pädagogisch</div>
+                <div className="text-neutral-500 mt-1">Wertvoll</div>
+              </div>
+            </AnimatedSection>
+          </div>
+          
+          <AnimatedSection direction="up" delay={700}>
+            <div className="text-center mt-12">
+              <div className="inline-flex items-center space-x-4 bg-white rounded-full px-8 py-4 shadow-lg">
+                <div className="flex items-center space-x-2">
+                  <div className="w-3 h-3 bg-secondary rounded-full"></div>
+                  <span className="text-sm font-medium">Zertifizierte Pädagogen</span>
+                </div>
+                <div className="w-px h-6 bg-neutral-300"></div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-3 h-3 bg-primary rounded-full"></div>
+                  <span className="text-sm font-medium">Museumserfahrung</span>
+                </div>
+                <div className="w-px h-6 bg-neutral-300"></div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-3 h-3 bg-accent rounded-full"></div>
+                  <span className="text-sm font-medium">Medienexpertise</span>
+                </div>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* YouTube Platzhalter */}
-      <section className="py-16 bg-neutral-light">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection direction="up" delay={200}>
             <div className="text-center mb-12">
@@ -226,24 +357,33 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection direction="up" delay={200}>
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-white mb-6">
-              Lass uns gemeinsam die Welt der Kunst entdecken!
+              Werden Sie unser Partner
             </h2>
           </AnimatedSection>
           
           <AnimatedSection direction="up" delay={400}>
-            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Hast du Fragen, möchtest Partner werden oder einfach nur Hallo sagen? 
-              Wir freuen uns auf deine Nachricht!
+            <p className="text-xl text-white/90 mb-8 max-w-4xl mx-auto">
+              Museen, Bildungseinrichtungen und Sponsoren: Lassen Sie uns gemeinsam 
+              die digitale Kunstbildung für Kinder revolutionieren. 
+              Professionell, pädagogisch wertvoll und zukunftsorientiert.
             </p>
           </AnimatedSection>
           
           <AnimatedSection direction="up" delay={600}>
-            <Link
-              href="/kontakt"
-              className="btn-primary bg-white text-primary hover:bg-neutral-100 px-8 py-3 rounded-full font-medium transition-colors duration-200 inline-block"
-            >
-              Jetzt Kontakt aufnehmen
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link
+                href="/kontakt"
+                className="btn-primary bg-white text-primary hover:bg-neutral-100 px-8 py-3 rounded-full font-medium transition-colors duration-200 inline-block"
+              >
+                Partnerschaft anfragen
+              </Link>
+              <Link
+                href="/konzept"
+                className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-full font-medium transition-colors duration-200 inline-block"
+              >
+                Konzept ansehen
+              </Link>
+            </div>
           </AnimatedSection>
         </div>
       </section>
