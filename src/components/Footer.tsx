@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import ThemeSwitcher from './ThemeSwitcher';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -106,13 +107,17 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-neutral-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-neutral-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-300 text-sm">
             © {currentYear} Lilos Kunstabenteuer. Alle Rechte vorbehalten.
           </p>
-          <p className="text-neutral-300 text-sm mt-2 md:mt-0">
-            Made with ❤️ for young art explorers
-          </p>
+          
+          <div className="flex items-center gap-4">
+            <ThemeSwitcher />
+            <p className="text-neutral-300 text-sm hidden md:block">
+              Made with ❤️ for young art explorers
+            </p>
+          </div>
         </div>
       </div>
     </footer>
