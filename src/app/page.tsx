@@ -27,7 +27,7 @@ export default function Home() {
             
             {/* Untertitel */}
             <p className="text-2xl md:text-3xl text-neutral-600 mb-16 max-w-4xl mx-auto leading-relaxed">
-              Die erste professionelle Marke für digitale Kunstbildung für Kinder und Jugendliche
+              Wir bringen Kindern und Jugendlichen die Welt der Kunst auf moderne und spannende Weise näher
             </p>
             
             {/* CTAs */}

@@ -24,8 +24,8 @@ export default function Konzept() {
               Das Konzept
             </h1>
             <p className="text-xl text-neutral-600 max-w-4xl mx-auto leading-relaxed">
-              Lilos Kunstabenteuer ist die erste professionelle Marke für digitale Kunstbildung 
-              für Kinder und Jugendliche in Deutschland.
+              Mit Lilos Kunstabenteuer vermitteln wir Kindern und Jugendlichen die Faszination 
+              für Kunst über moderne digitale Kanäle.
             </p>
           </div>
           
@@ -135,7 +135,7 @@ export default function Konzept() {
                 <h3 className="font-heading font-semibold text-2xl text-foreground mb-2">
                   Oliver Stöcker
                 </h3>
-                <p className="text-secondary font-medium">Co-Gründer & Geschäftsführer</p>
+                <p className="text-secondary font-medium">Co-Gründer & Projektleiter</p>
               </div>
               <div className="space-y-4">
                 <p className="text-neutral-600 leading-relaxed">

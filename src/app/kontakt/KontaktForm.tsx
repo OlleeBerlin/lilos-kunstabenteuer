@@ -183,10 +183,10 @@ export default function KontaktForm() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-heading font-semibold text-xl mb-2">E-Mail</h3>
-                      <a href="mailto:contact@liloskunstabenteuer.de" className="text-primary hover:text-primary-hover text-lg">
-                        contact@liloskunstabenteuer.de
-                      </a>
+                  <h3 className="font-heading font-semibold text-xl mb-2">E-Mail</h3>
+                  <a href="mailto:info@liloskunstabenteuer.de" className="text-primary hover:text-primary-hover text-lg">
+                    info@liloskunstabenteuer.de
+                  </a>
                       <p className="text-neutral-600 mt-2">
                         Wir antworten in der Regel innerhalb von 24-48 Stunden.
                       </p>
@@ -214,7 +214,7 @@ export default function KontaktForm() {
                         </div>
                         <div>
                           <p className="font-medium text-foreground">Oliver Stöcker</p>
-                          <p className="text-neutral-600">Co-Gründer & Geschäftsführer</p>
+                          <p className="text-neutral-600">Co-Gründer & Projektleiter</p>
                           <a href="mailto:oliver@liloskunstabenteuer.de" className="text-secondary hover:text-secondary-hover">
                             oliver@liloskunstabenteuer.de
                           </a>
