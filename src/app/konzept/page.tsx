@@ -76,7 +76,7 @@ export default function Konzept() {
                   <div className="w-full h-px bg-gradient-to-r from-transparent via-primary to-transparent"></div>
                   <div className="text-4xl font-bold text-secondary">3</div>
                   <div className="text-lg text-neutral-600">Plattformen</div>
-                  <div className="text-sm text-neutral-500">YouTube • Instagram • TikTok</div>
+                  <div className="text-sm text-neutral-700">YouTube • Instagram • TikTok</div>
                 </div>
               </div>
             </div>

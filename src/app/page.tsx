@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             
             {/* Hauptüberschrift */}
-            <h1 className="font-heading font-bold text-5xl md:text-7xl text-foreground mb-8 gradient-text">
+            <h1 className="font-heading font-bold text-5xl md:text-7xl text-foreground mb-8">
               Lilos Kunstabenteuer
             </h1>
             
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
             
             {/* Zusätzliche Info */}
-            <div className="mt-16 text-neutral-500">
+            <div className="mt-16 text-neutral-700">
               <p className="text-lg">
                 Wir bringen Museen, Bildung und moderne Medien zusammen
               </p>
