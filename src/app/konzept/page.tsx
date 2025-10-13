@@ -38,14 +38,9 @@ export default function Konzept() {
               Mit LILO entdecken Kinder und Jugendliche große Künstler, faszinierende Epochen sowie spannende Museen und Ausstellungen in ihrer digitalen Welt.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Konzept Details */}
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Große Haupt-Card */}
-          <div className="bg-gradient-to-br from-card-bg via-card-bg to-primary/5 rounded-4xl p-8 md:p-16 border border-border-color shadow-2xl relative overflow-hidden">
+          
+          {/* Große Haupt-Card - überlappend in Hero-Sektion */}
+          <div className="bg-gradient-to-br from-card-bg via-card-bg to-primary/5 rounded-4xl p-8 md:p-16 border border-border-color shadow-2xl relative overflow-hidden -mb-20">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-5">
               <div className="absolute top-10 right-10 w-32 h-32 bg-primary rounded-full blur-3xl"></div>
@@ -213,7 +208,7 @@ export default function Konzept() {
       </section>
 
       {/* Gründer-Vorstellung */}
-      <section className="py-24 bg-gradient-to-br from-accent/5 via-primary/5 to-secondary/5 relative overflow-hidden">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-accent/5 via-primary/5 to-secondary/5 relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-10 right-20 w-48 h-48 bg-primary rounded-full blur-3xl"></div>
