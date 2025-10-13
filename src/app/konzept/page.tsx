@@ -31,12 +31,11 @@ export default function Konzept() {
               🎨 Das Konzept
             </div>
             <h1 className="font-heading font-bold text-5xl md:text-7xl text-foreground mb-8 leading-tight">
-              Kunst neu 
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> entdecken</span>
+              Kunst für die 
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Generation Digital</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 max-w-4xl mx-auto leading-relaxed">
-              Wo Kunstgeschichte auf Generation Digital trifft.<br />
-              Mit LILO. Mit Herz. Mit Leidenschaft.
+              Mit LILO entdecken Kinder und Jugendliche große Künstler, faszinierende Epochen sowie spannende Museen und Ausstellungen in ihrer digitalen Welt.
             </p>
           </div>
         </div>
