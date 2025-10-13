@@ -68,7 +68,7 @@ export default function KontaktForm() {
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-foreground/90 mb-2">
                     Name *
                   </label>
                   <input
@@ -78,13 +78,13 @@ export default function KontaktForm() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
+                    className="w-full px-4 py-3 bg-card-bg border border-border-color rounded-lg text-foreground placeholder:text-foreground/50 focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-200"
                     placeholder="Ihr vollständiger Name"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-foreground/90 mb-2">
                     E-Mail *
                   </label>
                   <input
@@ -94,13 +94,13 @@ export default function KontaktForm() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
+                    className="w-full px-4 py-3 bg-card-bg border border-border-color rounded-lg text-foreground placeholder:text-foreground/50 focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-200"
                     placeholder="ihre@email.de"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-neutral-700 mb-2">
+                  <label htmlFor="subject" className="block text-sm font-medium text-foreground/90 mb-2">
                     Betreff *
                   </label>
                   <select
@@ -109,7 +109,7 @@ export default function KontaktForm() {
                     required
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
+                    className="w-full px-4 py-3 bg-card-bg border border-border-color rounded-lg text-foreground focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-200"
                   >
                     <option value="">Bitte wählen...</option>
                     <option value="general">Allgemeine Anfrage</option>
@@ -122,7 +122,7 @@ export default function KontaktForm() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-foreground/90 mb-2">
                     Nachricht *
                   </label>
                   <textarea
@@ -132,7 +132,7 @@ export default function KontaktForm() {
                     rows={6}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200 resize-none"
+                    className="w-full px-4 py-3 bg-card-bg border border-border-color rounded-lg text-foreground placeholder:text-foreground/50 focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-200 resize-none"
                     placeholder="Ihre Nachricht an uns..."
                   />
                 </div>
@@ -235,10 +235,10 @@ export default function KontaktForm() {
                     <div>
                       <h3 className="font-heading font-semibold text-xl mb-3">Social Media</h3>
                       <div className="space-y-2">
-                        <a href="#" className="block text-accent hover:text-accent-hover">
+                        <a href="#" className="block text-foreground hover:text-primary transition-colors duration-200 font-medium">
                           @liloskunstabenteuer
                         </a>
-                        <p className="text-foreground/80">
+                        <p className="text-foreground/90">
                           Folgen Sie uns für Updates und Einblicke in unsere Arbeit.
                         </p>
                       </div>
