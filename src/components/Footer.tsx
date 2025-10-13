@@ -7,11 +7,8 @@ export default function Footer() {
   const footerLinks = {
     navigation: [
       { name: 'Start', href: '/' },
-      { name: 'Über Lilo', href: '/ueber-lilo' },
       { name: 'Das Konzept', href: '/konzept' },
-      { name: 'Partner', href: '/partner' },
       { name: 'Kontakt', href: '/kontakt' },
-      { name: 'Presse', href: '/presse' },
     ],
     legal: [
       { name: 'Impressum', href: '/impressum' },
