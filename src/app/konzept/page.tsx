@@ -31,11 +31,11 @@ export default function Konzept() {
               🎨 Das Konzept
             </div>
             <h1 className="font-heading font-bold text-5xl md:text-7xl text-foreground mb-8 leading-tight">
-              Kunst für die 
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Generation Digital</span>
+              Unser 
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Konzept</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 max-w-4xl mx-auto leading-relaxed">
-              Mit LILO entdecken Kinder und Jugendliche große Künstler, faszinierende Epochen sowie spannende Museen und Ausstellungen in ihrer digitalen Welt.
+              Digitale Kunstbildung für die Generation Digital - mit LILO als Herzstück unserer Mission.
             </p>
           </div>
           
@@ -58,7 +58,7 @@ export default function Konzept() {
                   Lilos Kunstabenteuer
                 </h2>
                 <p className="text-xl text-foreground/80 leading-relaxed max-w-4xl mx-auto">
-                  <strong>Lilos Kunstabenteuer</strong> möchte in Deutschland Kunst gezielt für Kinder und Jugendliche auf <strong>YouTube, Instagram und TikTok</strong> inhaltlich wertvoll und altersgerecht vermitteln. Wir glauben daran, dass Kunst nicht nur in traditionellen Bildungsräumen vermittelt werden sollte, sondern auch dort zu finden sein muss, wo junge Menschen ihre Zeit verbringen – in der digitalen Welt.
+                  <strong>Lilos Kunstabenteuer</strong> vermittelt Kunst gezielt für Kinder und Jugendliche auf <strong>YouTube, Instagram und TikTok</strong> inhaltlich wertvoll und altersgerecht. Wir glauben daran, dass Kunst nicht nur in traditionellen Bildungsräumen vermittelt werden sollte, sondern auch dort zu finden sein muss, wo junge Menschen ihre Zeit verbringen – in der digitalen Welt.
                 </p>
               </div>
 
