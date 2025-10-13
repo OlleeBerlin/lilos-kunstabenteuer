@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baboo+2:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
   /* Lilos Kunstabenteuer Farbpalette */
@@ -28,9 +28,9 @@
   --color-secondary-hover: var(--secondary-hover);
   --color-accent-hover: var(--accent-hover);
   
-  /* Schriftarten */
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Inter', sans-serif;
+         /* Schriftarten */
+         --font-heading: 'Baboo 2', sans-serif;
+         --font-body: 'Inter', sans-serif;
   
   /* Responsive Breakpoints */
   --breakpoint-sm: 640px;

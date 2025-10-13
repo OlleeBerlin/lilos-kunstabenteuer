@@ -80,7 +80,7 @@ Dieses Dokument definiert das komplette Design-System für die Lilos Kunstabente
 
 ```css
 /* Headlines & Logo */
---font-heading: 'Poppins', sans-serif;
+--font-heading: 'Baboo 2', sans-serif;
 
 /* Body & Fließtext */
 --font-body: 'Inter', sans-serif;
@@ -88,17 +88,17 @@ Dieses Dokument definiert das komplette Design-System für die Lilos Kunstabente
 
 ### **Google Fonts Import**
 ```html
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baboo+2:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 ```
 
 ### **Font-Gewichtungen**
 
 | Gewichtung | Verwendung | Beispiel |
 |------------|------------|----------|
-| **Poppins 700** | Hauptüberschriften (H1) | "Lilos Kunstabenteuer" |
-| **Poppins 600** | Unterüberschriften (H2, H3) | "Was ist Lilos Kunstabenteuer?" |
-| **Poppins 500** | Buttons, Labels | "Mehr erfahren" |
-| **Poppins 400** | Kleinere Headlines | Navigation |
+| **Baboo 2 700** | Hauptüberschriften (H1) | "Lilos Kunstabenteuer" |
+| **Baboo 2 600** | Unterüberschriften (H2, H3) | "Was ist Lilos Kunstabenteuer?" |
+| **Baboo 2 500** | Buttons, Labels | "Mehr erfahren" |
+| **Baboo 2 400** | Kleinere Headlines | Navigation |
 | **Inter 600** | Betonter Body-Text | Wichtige Absätze |
 | **Inter 400** | Standard Body-Text | Fließtext |
 | **Inter 300** | Leichte Texte | Beschreibungen |
@@ -107,19 +107,19 @@ Dieses Dokument definiert das komplette Design-System für die Lilos Kunstabente
 
 ```css
 /* H1 - Hauptüberschrift */
-font-family: 'Poppins', sans-serif;
+font-family: 'Baboo 2', sans-serif;
 font-weight: 700;
 font-size: 3rem; /* 48px */
 line-height: 1.1;
 
 /* H2 - Sektionsüberschriften */
-font-family: 'Poppins', sans-serif;
+font-family: 'Baboo 2', sans-serif;
 font-weight: 600;
 font-size: 2.25rem; /* 36px */
 line-height: 1.2;
 
 /* H3 - Unterüberschriften */
-font-family: 'Poppins', sans-serif;
+font-family: 'Baboo 2', sans-serif;
 font-weight: 600;
 font-size: 1.5rem; /* 24px */
 line-height: 1.3;
@@ -492,7 +492,7 @@ Das Design-System ist modular aufgebaut und ermöglicht einfache Anpassungen:
   --accent: #FF9800;
   
   /* Schriftarten */
-  --font-heading: 'Poppins', sans-serif;
+  --font-heading: 'Baboo 2', sans-serif;
   --font-body: 'Inter', sans-serif;
 }
 ```
