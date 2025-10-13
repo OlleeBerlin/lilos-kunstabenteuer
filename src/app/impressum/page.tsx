@@ -37,14 +37,11 @@ export default function Impressum() {
               
               <div className="bg-neutral-light p-6 rounded-lg">
                 <p className="text-neutral-700 mb-2">
-                  <strong>[Firmenname einfügen]</strong>
+                  <strong>Oliver Stöcker</strong>
                 </p>
                 <p className="text-neutral-700 mb-2">
-                  [Rechtsform einfügen, z.B. Einzelunternehmen, UG, GmbH]
-                </p>
-                <p className="text-neutral-700 mb-2">
-                  [Straße und Hausnummer einfügen]<br />
-                  [PLZ] [Ort einfügen]
+                  Johanna-Spyri-Weg 1a<br />
+                  12205 Berlin
                 </p>
                 <p className="text-neutral-700 mb-2">
                   Deutschland
@@ -60,35 +57,10 @@ export default function Impressum() {
               
               <div className="bg-neutral-light p-6 rounded-lg">
                 <p className="text-neutral-700 mb-2">
-                  <strong>E-Mail:</strong> kontakt@liloskunstabenteuer.de
-                </p>
-                <p className="text-neutral-700 mb-2">
-                  <strong>Telefon:</strong> [Telefonnummer einfügen]
+                  <strong>E-Mail:</strong> info@liloskunstabenteuer.de
                 </p>
                 <p className="text-neutral-700">
                   <strong>Website:</strong> liloskunstabenteuer.de
-                </p>
-              </div>
-            </div>
-
-            {/* Handelsregister */}
-            <div className="mb-12">
-              <h2 className="font-heading font-bold text-2xl text-foreground mb-6">
-                Handelsregister
-              </h2>
-              
-              <div className="bg-neutral-light p-6 rounded-lg">
-                <p className="text-neutral-700 mb-2">
-                  <strong>Handelsregister:</strong> [Registergericht einfügen]
-                </p>
-                <p className="text-neutral-700 mb-2">
-                  <strong>Registernummer:</strong> [HRB/HR/Amtsgericht-Nummer einfügen]
-                </p>
-                <p className="text-neutral-700 mb-2">
-                  <strong>Umsatzsteuer-ID:</strong> [USt-IdNr. einfügen]
-                </p>
-                <p className="text-neutral-700">
-                  <strong>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:</strong> [falls zutreffend]
                 </p>
               </div>
             </div>
@@ -101,11 +73,11 @@ export default function Impressum() {
               
               <div className="bg-neutral-light p-6 rounded-lg">
                 <p className="text-neutral-700 mb-2">
-                  [Name der verantwortlichen Person einfügen]
+                  Oliver Stöcker
                 </p>
                 <p className="text-neutral-700 mb-2">
-                  [Straße und Hausnummer einfügen]<br />
-                  [PLZ] [Ort einfügen]
+                  Johanna-Spyri-Weg 1a<br />
+                  12205 Berlin
                 </p>
                 <p className="text-neutral-700">
                   Deutschland
@@ -232,7 +204,7 @@ export default function Impressum() {
             <div className="mb-12">
               <div className="bg-accent/10 p-6 rounded-lg border-l-4 border-accent">
                 <p className="text-neutral-700">
-                  <strong>Stand:</strong> [Datum einfügen]
+                  <strong>Stand:</strong> Oktober 2025
                 </p>
               </div>
             </div>
