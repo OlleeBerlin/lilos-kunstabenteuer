@@ -77,10 +77,10 @@ const themes: Theme[] = [
     name: 'Spurs',
     logo: '/logo-spurs.svg',
     colors: {
-      primary: '#B85450',
+      primary: '#8B0000',
       secondary: '#2D5016',
       accent: '#DCD9C6',
-      primaryHover: '#A04743',
+      primaryHover: '#A52A2A',
       secondaryHover: '#1F350E',
       accentHover: '#D4D0B8',
       background: '#C7E1E8',
