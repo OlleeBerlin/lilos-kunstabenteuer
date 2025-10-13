@@ -69,14 +69,51 @@ export default function Konzept() {
             
             {/* Visuelles Element */}
             <div className="relative">
-              <div className="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl p-12 text-center">
-                <div className="space-y-6">
-                  <div className="text-6xl font-bold text-primary">8-14</div>
-                  <div className="text-xl text-foreground/80">Jahre Zielgruppe</div>
-                  <div className="w-full h-px bg-gradient-to-r from-transparent via-primary to-transparent"></div>
-                  <div className="text-4xl font-bold text-secondary">3</div>
-                  <div className="text-lg text-foreground/80">Plattformen</div>
-                  <div className="text-sm text-foreground/80">YouTube • Instagram • TikTok</div>
+              <div className="grid grid-cols-2 gap-6">
+                {/* Zielgruppe Card */}
+                <div className="bg-card-bg rounded-2xl p-6 border border-border-color shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-2xl">👥</span>
+                    </div>
+                    <div className="text-4xl font-bold text-primary mb-2">8-14</div>
+                    <div className="text-sm font-medium text-foreground/80">Jahre Zielgruppe</div>
+                    <div className="text-xs text-foreground/60 mt-2">Kinder & Jugendliche</div>
+                  </div>
+                </div>
+
+                {/* Plattformen Card */}
+                <div className="bg-card-bg rounded-2xl p-6 border border-border-color shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-2xl">📱</span>
+                    </div>
+                    <div className="text-4xl font-bold text-secondary mb-2">3</div>
+                    <div className="text-sm font-medium text-foreground/80">Plattformen</div>
+                    <div className="flex justify-center space-x-2 mt-3">
+                      <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                      <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
+                      <div className="w-2 h-2 bg-black rounded-full"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Social Media Plattformen */}
+              <div className="mt-6 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-xl p-4 border border-border-color">
+                <div className="flex justify-center items-center space-x-6">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                    <span className="text-sm font-medium text-foreground/80">YouTube</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-3 h-3 bg-pink-500 rounded-full"></div>
+                    <span className="text-sm font-medium text-foreground/80">Instagram</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-3 h-3 bg-black rounded-full"></div>
+                    <span className="text-sm font-medium text-foreground/80">TikTok</span>
+                  </div>
                 </div>
               </div>
             </div>
