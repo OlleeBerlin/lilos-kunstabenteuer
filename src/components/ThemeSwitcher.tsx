@@ -85,7 +85,7 @@ const themes: Theme[] = [
       accentHover: '#D4D0B8',
       background: '#C7E1E8',
       foreground: '#282C36',
-      cardBg: '#FFFFFF',
+      cardBg: '#DCD9C6',
       borderColor: '#B8D4DB',
       footerBg: '#46564D',
     },
