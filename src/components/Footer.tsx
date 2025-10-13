@@ -17,7 +17,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-neutral-dark text-neutral-light">
+    <footer className="bg-neutral-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Beschreibung */}
@@ -34,7 +34,7 @@ export default function Footer() {
                 Lilos Kunstabenteuer
               </span>
             </div>
-            <p className="text-neutral-300 mb-6 max-w-md">
+            <p className="text-neutral-200 mb-6 max-w-md">
               Wir bringen Kindern die Welt der Kunst näher - auf YouTube, Instagram und TikTok
             </p>
             
@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-neutral-400 hover:text-primary transition-colors duration-200"
+                className="text-neutral-300 hover:text-primary transition-colors duration-200"
                 aria-label="YouTube"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="text-neutral-400 hover:text-primary transition-colors duration-200"
+                className="text-neutral-300 hover:text-primary transition-colors duration-200"
                 aria-label="Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -60,7 +60,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="text-neutral-400 hover:text-primary transition-colors duration-200"
+                className="text-neutral-300 hover:text-primary transition-colors duration-200"
                 aria-label="TikTok"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-neutral-400 hover:text-primary transition-colors duration-200"
+                    className="text-neutral-300 hover:text-primary transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -95,7 +95,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-neutral-400 hover:text-primary transition-colors duration-200"
+                    className="text-neutral-300 hover:text-primary transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -107,10 +107,10 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-neutral-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-neutral-400 text-sm">
+          <p className="text-neutral-300 text-sm">
             © {currentYear} Lilos Kunstabenteuer. Alle Rechte vorbehalten.
           </p>
-          <p className="text-neutral-400 text-sm mt-2 md:mt-0">
+          <p className="text-neutral-300 text-sm mt-2 md:mt-0">
             Made with ❤️ for young art explorers
           </p>
         </div>
