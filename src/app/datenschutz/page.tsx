@@ -278,29 +278,28 @@ export default function Datenschutz() {
                 </ul>
                 <p className="text-neutral-700">
                   Zur Ausübung Ihrer Rechte kontaktieren Sie uns unter: 
-                  <a href="mailto:datenschutz@liloskunstabenteuer.de" className="text-primary hover:underline">
-                    datenschutz@liloskunstabenteuer.de
+                  <a href="mailto:info@liloskunstabenteuer.de" className="text-primary hover:underline">
+                    info@liloskunstabenteuer.de
                   </a>
                 </p>
               </div>
             </div>
 
-            {/* Datenschutzbeauftragter */}
+            {/* Kontakt bei Datenschutzfragen */}
             <div className="mb-12">
               <h2 className="font-heading font-bold text-2xl text-foreground mb-6">
-                9. Datenschutzbeauftragter
+                9. Kontakt bei Datenschutzfragen
               </h2>
               
               <div className="bg-neutral-light p-6 rounded-lg">
                 <p className="text-neutral-700 mb-4">
-                  <strong>Datenschutzbeauftragter:</strong> [Name einfügen]
+                  <strong>Verantwortlicher:</strong> Oliver Stöcker
                 </p>
                 <p className="text-neutral-700 mb-4">
-                  <strong>E-Mail:</strong> datenschutz@liloskunstabenteuer.de
+                  <strong>E-Mail:</strong> info@liloskunstabenteuer.de
                 </p>
                 <p className="text-neutral-700">
-                  Bei Fragen zum Datenschutz können Sie sich jederzeit an unseren 
-                  Datenschutzbeauftragten wenden.
+                  Bei Fragen zum Datenschutz können Sie sich jederzeit an uns wenden.
                 </p>
               </div>
             </div>
@@ -325,7 +324,7 @@ export default function Datenschutz() {
             <div className="mb-12">
               <div className="bg-accent/10 p-6 rounded-lg border-l-4 border-accent">
                 <p className="text-neutral-700">
-                  <strong>Stand:</strong> [Datum einfügen]
+                  <strong>Stand:</strong> Oktober 2025
                 </p>
               </div>
             </div>
