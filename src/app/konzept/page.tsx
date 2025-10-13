@@ -35,8 +35,8 @@ export default function Konzept() {
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> entdecken</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 max-w-4xl mx-auto leading-relaxed">
-              Wir bringen Kindern und Jugendlichen die Faszination für Kunst 
-              über moderne digitale Kanäle näher.
+              Wo Kunstgeschichte auf Generation Digital trifft.<br />
+              Mit LILO. Mit Herz. Mit Leidenschaft.
             </p>
           </div>
         </div>
@@ -44,103 +44,127 @@ export default function Konzept() {
 
       {/* Konzept Details */}
       <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-20">
-            {/* Vision */}
-            <div className="lg:col-span-2">
-              <div className="bg-card-bg rounded-3xl p-8 border border-border-color shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center mr-4">
-                    <span className="text-2xl">🎯</span>
-                  </div>
-                  <h2 className="font-heading font-bold text-3xl text-foreground">Unsere Vision</h2>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-16">
+            {/* Einführung */}
+            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-3xl p-8 md:p-12 border border-border-color shadow-lg">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full text-primary font-medium text-sm mb-6">
+                  🎨 Wir machen Kunst für die Generation Digital
                 </div>
-                <p className="text-lg text-foreground/80 leading-relaxed">
-                  Wir möchten Kindern und Jugendlichen im Alter von 8-14 Jahren die Welt der Kunst 
-                  auf eine moderne, altersgerechte und spannende Weise näherbringen. 
-                  Durch die Kombination von traditioneller Kunstbildung und zeitgemäßer 
-                  Mediennutzung schaffen wir eine Brücke zwischen Museen und der digitalen Welt.
-                </p>
               </div>
+              <p className="text-lg text-foreground/80 leading-relaxed mb-6">
+                <strong>Lilos Kunstabenteuer</strong> möchte in Deutschland Kunst gezielt für Kinder und Jugendliche auf <strong>YouTube, Instagram und TikTok</strong> inhaltlich wertvoll und altersgerecht vermitteln. Wir glauben daran, dass Kunst nicht nur in traditionellen Bildungsräumen vermittelt werden sollte, sondern auch dort zu finden sein muss, wo junge Menschen ihre Zeit verbringen – in der digitalen Welt.
+              </p>
             </div>
-            
-            {/* Statistiken */}
-            <div className="space-y-6">
-              <div className="bg-card-bg rounded-2xl p-6 border border-border-color shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl">👥</span>
-                  </div>
-                  <div className="text-4xl font-bold text-primary mb-2">8-14</div>
-                  <div className="text-sm font-medium text-foreground/80">Jahre Zielgruppe</div>
-                </div>
-              </div>
 
-              <div className="bg-card-bg rounded-2xl p-6 border border-border-color shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl">📱</span>
-                  </div>
-                  <div className="text-4xl font-bold text-secondary mb-2">3</div>
-                  <div className="text-sm font-medium text-foreground/80">Plattformen</div>
-                  <div className="flex justify-center space-x-2 mt-3">
-                    <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                    <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                    <div className="w-2 h-2 bg-black rounded-full"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Zwei-Spalten Layout für weitere Inhalte */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Zielgruppe & Plattformen */}
-            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-3xl p-8 border border-border-color">
+            {/* Mission */}
+            <div className="bg-card-bg rounded-3xl p-8 md:p-12 border border-border-color shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-secondary/10 rounded-2xl flex items-center justify-center mr-4">
-                  <span className="text-2xl">🎨</span>
+                  <span className="text-2xl">🚀</span>
                 </div>
-                <h2 className="font-heading font-bold text-2xl text-foreground">Zielgruppe & Plattformen</h2>
+                <h2 className="font-heading font-bold text-3xl text-foreground">Unsere Mission: Kreativität trifft Digital Native</h2>
               </div>
-              <p className="text-foreground/80 leading-relaxed mb-6">
-                Unser Content richtet sich primär an Kinder und Jugendliche zwischen 8 und 14 Jahren. 
-                Wir sind auf YouTube, Instagram und TikTok aktiv und passen unsere Inhalte 
-                spezifisch an die jeweilige Plattform und deren Nutzerverhalten an.
+              <p className="text-lg text-foreground/80 leading-relaxed">
+                Während <strong>bereits 10 Prozent der Sechs- bis Siebenjährigen aktiv auf TikTok</strong> sind und <strong>junge Menschen durchschnittlich 68 Videos pro Tag</strong> konsumieren, schaffen wir Inhalte, die nicht nur unterhalten, sondern bilden und inspirieren. Kunst fördert <strong>Vorstellungskraft, kritisches Denken und Selbstvertrauen</strong> – und genau diese Superkräfte bringen wir zu den Kids nach Hause.
+              </p>
+            </div>
+
+            {/* Das Problem */}
+            <div className="bg-gradient-to-br from-accent/5 to-primary/5 rounded-3xl p-8 md:p-12 border border-border-color shadow-lg">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center mr-4">
+                  <span className="text-2xl">🎯</span>
+                </div>
+                <h2 className="font-heading font-bold text-3xl text-foreground">Das Problem, das wir lösen</h2>
+              </div>
+              <p className="text-lg text-foreground/80 leading-relaxed">
+                In einer Zeit, in der Kinder und Jugendliche täglich Stunden auf Social Media verbringen, fehlen qualitätsvolle, pädagogisch durchdachte Kunstinhalte. Während Influencer-Marketing und kommerzielle Inhalte die Plattformen dominieren, bleiben echte Bildungschancen ungenutzt. <strong>Lilos Kunstabenteuer</strong> füllt diese Lücke mit authentischen, kreativen und lehrreichen Inhalten, die junge Menschen dort abholen, wo sie sind.
+              </p>
+            </div>
+
+            {/* Herzstück YouTube mit LILO */}
+            <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-8 md:p-12 border border-border-color shadow-lg">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-primary/20 rounded-2xl flex items-center justify-center mr-4">
+                  <span className="text-2xl">❤️</span>
+                </div>
+                <h2 className="font-heading font-bold text-3xl text-foreground">Unser Herzstück: YouTube mit LILO als Seele der Marke</h2>
+              </div>
+              <p className="text-lg text-foreground/80 leading-relaxed mb-6">
+                <strong>YouTube ist unser Zuhause</strong> – hier schlägt das Herz von Lilos Kunstabenteuer. Im Mittelpunkt steht <strong>LILO</strong>, die coole große Schwester und ansteckend freundliche Lehrerin, die <strong>Kunstepochen, berühmte Künstler, spannende Ausstellungen, Galerien und Museen</strong> mit Begeisterung und Herzlichkeit zum Leben erweckt. Sie macht aus Van Gogh eine faszinierende Persönlichkeit, aus der Renaissance ein spannendes Abenteuer und aus jedem Museum einen Ort voller Geheimnisse.
               </p>
               
-              {/* Social Media Plattformen */}
-              <div className="bg-card-bg rounded-xl p-4 border border-border-color">
-                <div className="flex justify-center items-center space-x-8">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-4 h-4 bg-red-500 rounded-full"></div>
-                    <span className="font-medium text-foreground/80">YouTube</span>
+              <div className="bg-card-bg rounded-2xl p-6 border border-border-color mb-6">
+                <p className="text-foreground/80 leading-relaxed mb-4">
+                  <strong>TikTok und Instagram</strong> nutzen wir als kreative Brücken zu unserem YouTube-Kanal:
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 rounded-xl p-4 border border-red-200 dark:border-red-800">
+                    <div className="flex items-center mb-2">
+                      <div className="w-6 h-6 bg-red-500 rounded-lg flex items-center justify-center mr-2">
+                        <span className="text-white text-xs">⚡</span>
+                      </div>
+                      <h3 className="font-bold text-foreground">TikTok</h3>
+                    </div>
+                    <p className="text-sm text-foreground/80">Kurze, inspirierende Kunst-Teaser über Künstler und Kunstgeschichte</p>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-4 h-4 bg-pink-500 rounded-full"></div>
-                    <span className="font-medium text-foreground/80">Instagram</span>
+                  <div className="bg-gradient-to-br from-pink-50 to-pink-100 dark:from-pink-900/20 dark:to-pink-800/20 rounded-xl p-4 border border-pink-200 dark:border-pink-800">
+                    <div className="flex items-center mb-2">
+                      <div className="w-6 h-6 bg-pink-500 rounded-lg flex items-center justify-center mr-2">
+                        <span className="text-white text-xs">📸</span>
+                      </div>
+                      <h3 className="font-bold text-foreground">Instagram</h3>
+                    </div>
+                    <p className="text-sm text-foreground/80">Visuelle Einblicke in LILOs Kunstwelt und spannende Fakten über Museen</p>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-4 h-4 bg-black rounded-full"></div>
-                    <span className="font-medium text-foreground/80">TikTok</span>
+                  <div className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900/20 dark:to-gray-800/20 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
+                    <div className="flex items-center mb-2">
+                      <div className="w-6 h-6 bg-black rounded-lg flex items-center justify-center mr-2">
+                        <span className="text-white text-xs">🎥</span>
+                      </div>
+                      <h3 className="font-bold text-foreground">YouTube</h3>
+                    </div>
+                    <p className="text-sm text-foreground/80">LILOs vollständige Kunst-Abenteuer mit unterhaltsamen Geschichten</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Pädagogischer Ansatz */}
-            <div className="bg-gradient-to-br from-secondary/5 to-accent/5 rounded-3xl p-8 border border-border-color">
+            {/* Warum jetzt */}
+            <div className="bg-gradient-to-br from-secondary/5 to-accent/5 rounded-3xl p-8 md:p-12 border border-border-color shadow-lg">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-secondary/10 rounded-2xl flex items-center justify-center mr-4">
+                  <span className="text-2xl">⏰</span>
+                </div>
+                <h2 className="font-heading font-bold text-3xl text-foreground">Warum jetzt?</h2>
+              </div>
+              <p className="text-lg text-foreground/80 leading-relaxed">
+                Der Markt für <strong>digitale Kulturbildung wächst kontinuierlich</strong>, während <strong>immersive Kunstproduktionen und neue Technologien</strong> völlig neue Möglichkeiten eröffnen. Gleichzeitig fehlt eine systematische, markenorientierte Herangehensweise an Social Media-Kunstbildung in Deutschland. <strong>Lilos Kunstabenteuer</strong> möchte diese Lücke schließen und gemeinsam mit Museen, Schulen und Kulturinstitutionen neue Standards für digitale Kunstbildung setzen.
+              </p>
+            </div>
+
+            {/* Vision */}
+            <div className="bg-card-bg rounded-3xl p-8 md:p-12 border border-border-color shadow-lg">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-accent/10 rounded-2xl flex items-center justify-center mr-4">
-                  <span className="text-2xl">📚</span>
+                  <span className="text-2xl">🌟</span>
                 </div>
-                <h2 className="font-heading font-bold text-2xl text-foreground">Pädagogischer Ansatz</h2>
+                <h2 className="font-heading font-bold text-3xl text-foreground">Unsere Vision</h2>
               </div>
-              <p className="text-foreground/80 leading-relaxed">
-                Alle Inhalte werden von erfahrenen Pädagogen entwickelt und sind darauf ausgelegt, 
-                sowohl bildend als auch unterhaltsam zu sein. Wir kombinieren Kunstgeschichte, 
-                kreative Techniken und moderne Medienkompetenz in einem ganzheitlichen Ansatz.
+              <p className="text-lg text-foreground/80 leading-relaxed mb-6">
+                Wir träumen von einer Generation, die Kunstgeschichte nicht als langweilig oder unzugänglich empfindet, sondern als Teil ihrer digitalen DNA. Eine Generation, die durch das Entdecken großer Künstler und Kunstepochen gestärkt wird und Museen als spannende Erlebnisorte begreift. Mit LILO als warmherziger Begleiterin wollen wir zeigen, dass Kunstgeschichte lebendig ist und jeder sie verstehen kann.
               </p>
+              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-6 border border-border-color">
+                <p className="text-lg font-medium text-foreground text-center">
+                  <span className="text-primary font-bold">Lilos Kunstabenteuer</span> – wo Kunstgeschichte auf Generation Digital trifft.<br />
+                  Mit LILO. Mit Herz. Mit Leidenschaft.
+                </p>
+                <p className="text-center text-foreground/80 mt-4 italic">
+                  Lass uns gemeinsam mit LILO die faszinierende Welt der Kunst entdecken.
+                </p>
+              </div>
             </div>
           </div>
         </div>
