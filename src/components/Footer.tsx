@@ -35,8 +35,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-neutral-300 mb-6 max-w-md">
-              Die erste deutsche Marke für digitale Kunstbildung für Kinder und Jugendliche. 
-              Entdecke mit uns die Welt der Kunst auf YouTube, Instagram und TikTok!
+              Wir bringen Kindern die Welt der Kunst näher - auf YouTube, Instagram und TikTok
             </p>
             
             {/* Social Media Links */}
