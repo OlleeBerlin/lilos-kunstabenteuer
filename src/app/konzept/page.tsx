@@ -235,8 +235,12 @@ export default function Konzept() {
             <div className="group">
               <div className="bg-card-bg rounded-3xl p-8 border border-border-color shadow-lg group-hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2">
                 <div className="flex flex-col items-center text-center mb-8">
-                  <div className="w-40 h-40 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl mb-6 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                    <span className="text-5xl">🎨</span>
+                  <div className="w-40 h-40 rounded-3xl mb-6 overflow-hidden group-hover:scale-105 transition-transform duration-300 border-4 border-primary/20">
+                    <img 
+                      src="/alica-sumbadze.png" 
+                      alt="Alica Sumbadze" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="font-heading font-bold text-3xl text-foreground mb-3">
                     Alica Sumbadze
@@ -288,8 +292,12 @@ export default function Konzept() {
             <div className="group">
               <div className="bg-card-bg rounded-3xl p-8 border border-border-color shadow-lg group-hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2">
                 <div className="flex flex-col items-center text-center mb-8">
-                  <div className="w-40 h-40 bg-gradient-to-br from-secondary/20 to-accent/20 rounded-3xl mb-6 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                    <span className="text-5xl">💻</span>
+                  <div className="w-40 h-40 rounded-3xl mb-6 overflow-hidden group-hover:scale-105 transition-transform duration-300 border-4 border-secondary/20">
+                    <img 
+                      src="/oliver-stoecker.png" 
+                      alt="Oliver Stöcker" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="font-heading font-bold text-3xl text-foreground mb-3">
                     Oliver Stöcker
