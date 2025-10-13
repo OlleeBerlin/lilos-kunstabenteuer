@@ -1,5 +1,7 @@
-import Image from "next/image";
+'use client';
+
 import Link from "next/link";
+import ThemeLogo from "@/components/ThemeLogo";
 
 export default function Home() {
   return (
@@ -10,9 +12,7 @@ export default function Home() {
           <div className="text-center">
             {/* Logo */}
             <div className="mb-12">
-              <Image
-                src="/logo.svg"
-                alt="Lilos Kunstabenteuer Logo"
+              <ThemeLogo
                 width={300}
                 height={300}
                 className="mx-auto h-40 w-40 md:h-56 md:w-56 logo-float"

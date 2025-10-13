@@ -22,6 +22,7 @@ interface Theme {
 const themes: Theme[] = [
   {
     name: 'Lilos Original',
+    logo: '/logo.svg',
     colors: {
       primary: '#00BCD4',
       secondary: '#66BB6A',
@@ -33,6 +34,7 @@ const themes: Theme[] = [
   },
   {
     name: 'Alica 1',
+    logo: '/logo-alica1.svg',
     colors: {
       primary: '#2f5d50',
       secondary: '#FF9EBB',
@@ -44,6 +46,7 @@ const themes: Theme[] = [
   },
   {
     name: 'Alica 2',
+    logo: '/logo-alica2.svg',
     colors: {
       primary: '#f7804a',
       secondary: '#a8e6cf',
@@ -55,6 +58,7 @@ const themes: Theme[] = [
   },
   {
     name: 'Dark Mode',
+    logo: '/logo-dark.svg',
     colors: {
       primary: '#00D9FF',
       secondary: '#7CFF7C',

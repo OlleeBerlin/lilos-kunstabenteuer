@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import ThemeLogo from './ThemeLogo';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,9 +19,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <Image
-              src="/logo.svg"
-              alt="Lilos Kunstabenteuer Logo"
+            <ThemeLogo
               width={40}
               height={40}
               className="h-10 w-10"

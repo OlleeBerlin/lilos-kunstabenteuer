@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import ThemeLogo from './ThemeLogo';
 import ThemeSwitcher from './ThemeSwitcher';
 
 export default function Footer() {
@@ -24,9 +24,7 @@ export default function Footer() {
           {/* Logo & Beschreibung */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Image
-                src="/logo.svg"
-                alt="Lilos Kunstabenteuer Logo"
+              <ThemeLogo
                 width={40}
                 height={40}
                 className="h-10 w-10"
