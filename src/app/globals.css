@@ -47,6 +47,7 @@
   --color-card-bg: var(--card-bg);
   --color-border-color: var(--border-color);
   --color-footer-bg: var(--footer-bg);
+  --color-footer-text: var(--footer-text);
   
   /* Schriftarten */
   --font-heading: 'Baboo 2', sans-serif;

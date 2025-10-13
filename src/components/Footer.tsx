@@ -19,7 +19,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-footer-bg text-white">
+    <footer className="bg-footer-bg text-footer-text">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Beschreibung */}
@@ -34,7 +34,7 @@ export default function Footer() {
                 Lilos Kunstabenteuer
               </span>
             </div>
-            <p className="text-neutral-200 mb-6 max-w-md">
+            <p className="text-footer-text/80 mb-6 max-w-md">
               Wir bringen Kindern die Welt der Kunst näher - auf YouTube, Instagram und TikTok
             </p>
             
@@ -50,7 +50,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-neutral-300 hover:text-primary transition-colors duration-200"
+                    className="text-footer-text/70 hover:text-primary transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -67,7 +67,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-neutral-300 hover:text-primary transition-colors duration-200"
+                    className="text-footer-text/70 hover:text-primary transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -78,14 +78,14 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-neutral-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-neutral-300 text-sm">
+        <div className="border-t border-footer-text/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-footer-text/70 text-sm">
             © {currentYear} Lilos Kunstabenteuer. Alle Rechte vorbehalten.
           </p>
           
           <div className="flex items-center gap-4">
             <ThemeSwitcher />
-            <p className="text-neutral-300 text-sm hidden md:block">
+            <p className="text-footer-text/70 text-sm hidden md:block">
               Made with ❤️ for young art explorers
             </p>
           </div>

@@ -17,6 +17,7 @@ interface Theme {
     cardBg?: string;
     borderColor?: string;
     footerBg?: string;
+    footerText?: string;
   };
 }
 
@@ -87,7 +88,8 @@ const themes: Theme[] = [
       foreground: '#282C36',
       cardBg: '#DCD9C6',
       borderColor: '#B8D4DB',
-      footerBg: '#46564D',
+      footerBg: '#DCD9C6',
+      footerText: '#2D5016',
     },
   },
 ];
@@ -124,6 +126,7 @@ export default function ThemeSwitcher() {
       root.style.setProperty('--card-bg', theme.colors.cardBg || theme.colors.background);
       root.style.setProperty('--border-color', theme.colors.borderColor || theme.colors.foreground);
       root.style.setProperty('--footer-bg', theme.colors.footerBg || '#263238');
+      root.style.setProperty('--footer-text', theme.colors.footerText || '#FFFFFF');
     } else {
       // Reset zu Standard
       root.style.setProperty('--background', '#FAFAFA');
@@ -131,6 +134,7 @@ export default function ThemeSwitcher() {
       root.style.setProperty('--card-bg', '#FFFFFF');
       root.style.setProperty('--border-color', '#E5E7EB');
       root.style.setProperty('--footer-bg', '#263238');
+      root.style.setProperty('--footer-text', '#FFFFFF');
     }
     
     // Logo-Switching
