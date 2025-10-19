@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Lilos Kunstabenteuer - Digitale Kunstbildung für Kinder",
-  description: "Die erste deutsche Marke für digitale Kunstbildung für Kinder und Jugendliche. Entdecke mit Lilo die Welt der Kunst auf YouTube, Instagram und TikTok!",
+  description: "Digitale Kunstbildung für Kinder und Jugendliche. Entdecke mit Lilo die Welt der Kunst auf YouTube, Instagram und TikTok!",
   keywords: "Kunst, Kinder, Bildung, YouTube, Instagram, TikTok, Kunstgeschichte, kreativ, Lilo",
   authors: [{ name: "Lilos Kunstabenteuer" }],
   icons: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Lilos Kunstabenteuer - Digitale Kunstbildung für Kinder",
-    description: "Die erste deutsche Marke für digitale Kunstbildung für Kinder und Jugendliche.",
+    description: "Digitale Kunstbildung für Kinder und Jugendliche.",
     type: "website",
     locale: "de_DE",
   },

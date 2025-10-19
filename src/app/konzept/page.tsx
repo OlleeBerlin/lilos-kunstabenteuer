@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Das Konzept - Lilos Kunstabenteuer",
-  description: "Die erste deutsche Marke für digitale Kunstbildung für Kinder und Jugendliche. Altersgerechte Inhalte für YouTube, Instagram und TikTok.",
+  description: "Digitale Kunstbildung für Kinder und Jugendliche. Altersgerechte Inhalte für YouTube, Instagram und TikTok.",
   keywords: "Konzept, digitale Kunstbildung, Social Media, Kinder, Jugendliche, Bildung, Pädagogik",
   openGraph: {
     title: "Das Konzept - Lilos Kunstabenteuer",
-    description: "Die erste deutsche Marke für digitale Kunstbildung für Kinder und Jugendliche.",
+    description: "Digitale Kunstbildung für Kinder und Jugendliche.",
     type: "website",
   },
 };
