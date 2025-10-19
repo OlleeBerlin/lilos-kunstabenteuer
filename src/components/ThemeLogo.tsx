@@ -50,15 +50,16 @@ export default function ThemeLogo({
   }, []);
 
   return (
-    <Image
-      src={logoPath}
-      alt="Lilos Kunstabenteuer Logo"
-      width={width}
-      height={height}
-      className={`${className} drop-shadow-md`}
-      priority={priority}
-      style={{ filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15))' }}
-    />
+    <div className="bg-white rounded-full p-1 shadow-lg">
+      <Image
+        src={logoPath}
+        alt="Lilos Kunstabenteuer Logo"
+        width={width}
+        height={height}
+        className={className}
+        priority={priority}
+      />
+    </div>
   );
 }
 
