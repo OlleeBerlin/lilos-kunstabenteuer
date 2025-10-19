@@ -93,7 +93,7 @@ const themes: Theme[] = [
     },
   },
   {
-    name: 'Neu',
+    name: 'Neu', // Neues Theme mit Koralle/Türkis/Sonnengelb
     logo: '/logo-neu.svg',
     colors: {
       primary: '#FF6B6B', // Koralle
