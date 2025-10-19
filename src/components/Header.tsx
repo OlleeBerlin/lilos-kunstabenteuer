@@ -21,9 +21,9 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <ThemeLogo
-              width={40}
-              height={40}
-              className="h-10 w-10"
+              width={56}
+              height={56}
+              className="h-14 w-14"
             />
             <span className="font-heading font-semibold text-lg text-foreground">
               Lilos Kunstabenteuer

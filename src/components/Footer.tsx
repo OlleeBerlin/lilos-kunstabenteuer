@@ -26,9 +26,9 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <ThemeLogo
-                width={40}
-                height={40}
-                className="h-10 w-10"
+                width={56}
+                height={56}
+                className="h-14 w-14"
               />
               <span className="font-heading font-semibold text-lg">
                 Lilos Kunstabenteuer

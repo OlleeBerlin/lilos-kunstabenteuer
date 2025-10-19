@@ -13,9 +13,9 @@ export default function Home() {
             {/* Logo */}
             <div className="mb-12">
               <ThemeLogo
-                width={300}
-                height={300}
-                className="mx-auto h-40 w-40 md:h-56 md:w-56 logo-float"
+                width={400}
+                height={400}
+                className="mx-auto h-48 w-48 md:h-64 md:w-64 logo-float"
                 priority
               />
             </div>
