@@ -102,12 +102,12 @@ const themes: Theme[] = [
       primaryHover: '#4338CA',
       secondaryHover: '#0891B2',
       accentHover: '#E5E7EB',
-      background: '#FFFFFF',
+      background: '#F5F3FF', // Helles Indigo-Weiß
       foreground: '#1F2937',
-      cardBg: '#F9FAFB',
-      borderColor: '#E5E7EB',
-      footerBg: '#1F2937',
-      footerText: '#F9FAFB',
+      cardBg: '#FFFFFF', // Karten heben sich ab
+      borderColor: '#DDD6FE', // Sanftes Indigo
+      footerBg: '#312E81', // Dunkles Indigo
+      footerText: '#F5F3FF',
     },
   },
 ];
