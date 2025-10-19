@@ -96,18 +96,18 @@ const themes: Theme[] = [
     name: 'Neu',
     logo: '/logo-neu.svg',
     colors: {
-      primary: '#EC4899', // Pink
-      secondary: '#F59E0B', // Amber/Orange
-      accent: '#8B5CF6', // Violett
-      primaryHover: '#DB2777',
-      secondaryHover: '#D97706',
-      accentHover: '#7C3AED',
-      background: '#FFF7ED', // Warmer Creme-Ton
+      primary: '#F97316', // Kräftiges Orange
+      secondary: '#0EA5E9', // Sky Blue
+      accent: '#10B981', // Smaragdgrün
+      primaryHover: '#EA580C',
+      secondaryHover: '#0284C7',
+      accentHover: '#059669',
+      background: '#FEF3C7', // Warmes Sonnengelb
       foreground: '#292524',
-      cardBg: '#FFFBEB', // Warmes helles Gelb
-      borderColor: '#FED7AA', // Pfirsich
-      footerBg: '#7C2D12', // Warmes dunkles Braun
-      footerText: '#FFF7ED',
+      cardBg: '#FFFBEB', // Cremiges Gelb
+      borderColor: '#FCD34D', // Goldgelb
+      footerBg: '#1E3A8A', // Tiefes Blau
+      footerText: '#FEF3C7',
     },
   },
 ];
