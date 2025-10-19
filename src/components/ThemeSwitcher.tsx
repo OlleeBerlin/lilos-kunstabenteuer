@@ -23,73 +23,22 @@ interface Theme {
 
 const themes: Theme[] = [
   {
-    name: 'Lilos Original',
-    logo: '/logo.svg',
+    name: 'Rahmen',
+    logo: '/logo-rahmen.svg',
     colors: {
-      primary: '#00BCD4',
-      secondary: '#66BB6A',
-      accent: '#FF9800',
-      primaryHover: '#00ACC1',
-      secondaryHover: '#5CB85C',
-      accentHover: '#F57C00',
-    },
-  },
-  {
-    name: 'Alica 1',
-    logo: '/logo-alica1.svg',
-    colors: {
-      primary: '#2f5d50',
-      secondary: '#E91E63',
-      accent: '#F57C00',
-      primaryHover: '#234739',
-      secondaryHover: '#C2185B',
-      accentHover: '#EF6C00',
-    },
-  },
-  {
-    name: 'Alica 2',
-    logo: '/logo-alica2.svg',
-    colors: {
-      primary: '#E65100',
-      secondary: '#2E7D32',
-      accent: '#FF9800',
-      primaryHover: '#BF360C',
-      secondaryHover: '#1B5E20',
-      accentHover: '#F57C00',
-    },
-  },
-  {
-    name: 'Dark Mode',
-    logo: '/logo-dark.svg',
-    colors: {
-      primary: '#FF9EBB',
-      secondary: '#B7E4C7',
-      accent: '#FFF8DC',
-      primaryHover: '#FF7AA3',
-      secondaryHover: '#9FD4B0',
-      accentHover: '#FFE8B0',
-      background: '#2F5D50',
-      foreground: '#FFF8DC',
-      cardBg: '#234739',
-      borderColor: '#3A6E5F',
-    },
-  },
-  {
-    name: 'Spurs',
-    logo: '/logo-spurs.svg',
-    colors: {
-      primary: '#DA907B',
-      secondary: '#2D5016',
-      accent: '#DCD9C6',
-      primaryHover: '#C87D68',
-      secondaryHover: '#1F350E',
-      accentHover: '#D4D0B8',
-      background: '#C7E1E8',
-      foreground: '#282C36',
-      cardBg: '#DCD9C6',
-      borderColor: '#B8D4DB',
-      footerBg: '#DCD9C6',
-      footerText: '#2D5016',
+      primary: '#8B5A2B', // Warmes Braun
+      secondary: '#D4AF37', // Gold
+      accent: '#CD853F', // Perubraun
+      primaryHover: '#7A4F26',
+      secondaryHover: '#B8941F',
+      accentHover: '#B87333',
+      background: '#FDF5E6', // Altweiß
+      foreground: '#2F1B14',
+      cardBg: '#FFF8DC', // Cornsilk
+      borderColor: '#D2B48C', // Tan
+      headerBg: '#F5DEB3', // Weizen
+      footerBg: '#F5DEB3', // Weizen
+      footerText: '#2F1B14',
     },
   },
   {
@@ -130,29 +79,10 @@ const themes: Theme[] = [
       footerText: '#1E293B',
     },
   },
-  {
-    name: 'Rahmen',
-    logo: '/logo-rahmen.svg',
-    colors: {
-      primary: '#8B5A2B', // Warmes Braun
-      secondary: '#D4AF37', // Gold
-      accent: '#CD853F', // Perubraun
-      primaryHover: '#7A4F26',
-      secondaryHover: '#B8941F',
-      accentHover: '#B87333',
-      background: '#FDF5E6', // Altweiß
-      foreground: '#2F1B14',
-      cardBg: '#FFF8DC', // Cornsilk
-      borderColor: '#D2B48C', // Tan
-      headerBg: '#F5DEB3', // Weizen
-      footerBg: '#F5DEB3', // Weizen
-      footerText: '#2F1B14',
-    },
-  },
 ];
 
 export default function ThemeSwitcher() {
-  const [currentTheme, setCurrentTheme] = useState(0);
+  const [currentTheme, setCurrentTheme] = useState(0); // Rahmen als Standard (jetzt Index 0)
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -162,6 +92,9 @@ export default function ThemeSwitcher() {
       const themeIndex = parseInt(savedTheme);
       setCurrentTheme(themeIndex);
       applyTheme(themeIndex);
+    } else {
+      // Standard-Theme (Rahmen) anwenden
+      applyTheme(0);
     }
   }, []);
 

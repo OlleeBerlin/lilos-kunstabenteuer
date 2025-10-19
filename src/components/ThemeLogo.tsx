@@ -16,7 +16,7 @@ export default function ThemeLogo({
   className = '',
   priority = false 
 }: ThemeLogoProps) {
-  const [logoPath, setLogoPath] = useState('/logo.svg');
+  const [logoPath, setLogoPath] = useState('/logo-rahmen.svg');
 
   useEffect(() => {
     // Initial Logo basierend auf gespeichertem Theme setzen
@@ -25,7 +25,7 @@ export default function ThemeLogo({
       if (themeLogoAttr) {
         setLogoPath(themeLogoAttr);
       } else {
-        setLogoPath('/logo.svg');
+        setLogoPath('/logo-rahmen.svg');
       }
     };
 
