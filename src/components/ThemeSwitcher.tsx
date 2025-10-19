@@ -92,6 +92,24 @@ const themes: Theme[] = [
       footerText: '#2D5016',
     },
   },
+  {
+    name: 'Neu',
+    logo: '/logo-neu.svg',
+    colors: {
+      primary: '#4F46E5', // Indigo
+      secondary: '#06B6D4', // Cyan
+      accent: '#F3F4F6', // Light gray
+      primaryHover: '#4338CA',
+      secondaryHover: '#0891B2',
+      accentHover: '#E5E7EB',
+      background: '#FFFFFF',
+      foreground: '#1F2937',
+      cardBg: '#F9FAFB',
+      borderColor: '#E5E7EB',
+      footerBg: '#1F2937',
+      footerText: '#F9FAFB',
+    },
+  },
 ];
 
 export default function ThemeSwitcher() {
