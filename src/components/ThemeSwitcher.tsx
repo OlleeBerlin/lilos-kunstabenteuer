@@ -111,6 +111,25 @@ const themes: Theme[] = [
       footerText: '#2C3E50',
     },
   },
+  {
+    name: 'NurSchrift',
+    logo: '/logo-neunurschrift.svg',
+    colors: {
+      primary: '#2563EB', // Kräftiges Blau
+      secondary: '#DC2626', // Kräftiges Rot
+      accent: '#059669', // Kräftiges Grün
+      primaryHover: '#1D4ED8',
+      secondaryHover: '#B91C1C',
+      accentHover: '#047857',
+      background: '#F8FAFC', // Sehr helles Grau
+      foreground: '#1E293B',
+      cardBg: '#FFFFFF', // Reines Weiß
+      borderColor: '#E2E8F0',
+      headerBg: '#F1F5F9', // Helles Blaugrau
+      footerBg: '#F1F5F9', // Helles Blaugrau
+      footerText: '#1E293B',
+    },
+  },
 ];
 
 export default function ThemeSwitcher() {
