@@ -28,7 +28,7 @@ export default function Home() {
             
             {/* Untertitel */}
             <p className="text-2xl md:text-3xl text-foreground/80 mb-16 max-w-4xl mx-auto leading-relaxed">
-              Mit LILO entdecken Kinder und Jugendliche große Künstler, faszinierende Epochen sowie spannende Museen und Ausstellungen in ihrer digitalen Welt.
+              Mit <strong>Lilo</strong> entdecken Kinder und Jugendliche große Künstler und Künstlerinnen, faszinierende Epochen sowie spannende Museen und Ausstellungen in ihrer digitalen Welt.
             </p>
             
             {/* CTAs */}

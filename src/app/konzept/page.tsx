@@ -73,7 +73,7 @@ export default function Konzept() {
                     <h3 className="font-heading font-bold text-2xl text-foreground">Unsere Mission</h3>
                   </div>
                   <p className="text-foreground/80 leading-relaxed">
-                    Während <strong>bereits 10 Prozent der Sechs- bis Siebenjährigen aktiv auf TikTok</strong> sind und <strong>junge Menschen durchschnittlich 68 Videos pro Tag</strong> konsumieren, schaffen wir Inhalte, die nicht nur unterhalten, sondern bilden und inspirieren. Kunst fördert <strong>Vorstellungskraft, kritisches Denken und Selbstvertrauen</strong> – und genau diese Superkräfte bringen wir zu den Kids nach Hause.
+                    Während <strong>bereits 10 Prozent der Sechs- bis Siebenjährigen aktiv auf TikTok</strong> sind und <strong>junge Menschen durchschnittlich 68 Videos pro Tag</strong> konsumieren, schaffen wir Inhalte, die nicht nur unterhalten, sondern bilden und inspirieren. Kunst fördert <strong>Vorstellungskraft, kritisches Denken und Kreativität</strong> – und genau diese Superkräfte bringen wir zu den Kids nach Hause.
                   </p>
                 </div>
 
@@ -86,7 +86,7 @@ export default function Konzept() {
                     <h3 className="font-heading font-bold text-2xl text-foreground">Das Problem</h3>
                   </div>
                   <p className="text-foreground/80 leading-relaxed">
-                    In einer Zeit, in der Kinder und Jugendliche täglich Stunden auf Social Media verbringen, fehlen qualitätsvolle, pädagogisch durchdachte Kunstinhalte. Während Influencer-Marketing und kommerzielle Inhalte die Plattformen dominieren, bleiben echte Bildungschancen ungenutzt. <strong>Lilos Kunstabenteuer</strong> füllt diese Lücke mit authentischen, kreativen und lehrreichen Inhalten.
+                    In einer Zeit, in der Kinder und Jugendliche täglich Stunden auf Social Media verbringen, fehlen qualitätsvolle, pädagogisch durchdachte Kunstinhalte. Während Influencer-Marketing und kommerzielle Inhalte die Plattformen dominieren, sind echte Bildungsinhalte limitiert. <strong>Lilos Kunstabenteuer</strong> füllt diese Lücke mit authentischen, kreativen und lehrreichen Inhalten.
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function Konzept() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                   <div>
                     <p className="text-xl text-foreground/80 leading-relaxed mb-8">
-                      <strong>YouTube ist unser Zuhause</strong> – hier schlägt das Herz von Lilos Kunstabenteuer. Im Mittelpunkt steht <strong>LILO</strong>, die coole große Schwester und ansteckend freundliche Lehrerin, die <strong>Kunstepochen, berühmte Künstler, spannende Ausstellungen, Galerien und Museen</strong> mit Begeisterung und Herzlichkeit zum Leben erweckt.
+                      <strong>YouTube ist unser Zuhause</strong> – hier schlägt das Herz von Lilos Kunstabenteuer. Im Mittelpunkt steht <strong>LILO</strong>, die coole große Schwester und ansteckend freundliche Lehrerin, die <strong>Kunstepochen, berühmte Künstler und Künstlerinnen, spannende Ausstellungen, Galerien und Museen</strong> mit Begeisterung und Herzlichkeit zum Leben erweckt.
                     </p>
                     <div className="bg-card-bg rounded-2xl p-6 border border-border-color">
                       <p className="text-foreground/80 font-medium mb-4">
@@ -183,7 +183,7 @@ export default function Konzept() {
                     <h3 className="font-heading font-bold text-2xl text-foreground">Unsere Vision</h3>
                   </div>
                   <p className="text-foreground/80 leading-relaxed">
-                    Wir träumen von einer Generation, die Kunstgeschichte nicht als langweilig oder unzugänglich empfindet, sondern als Teil ihrer digitalen DNA. Mit LILO als warmherziger Begleiterin wollen wir zeigen, dass Kunstgeschichte lebendig ist und jeder sie verstehen kann.
+                    Wir träumen von einer Generation, die Kunstgeschichte nicht als langweilig oder unzugänglich empfindet, sondern als Teil ihrer digitalen DNA. Mit LILO als warmherziger Begleiterin wollen wir zeigen, dass Kunstgeschichte lebendig ist, Grenzen überschreitet und jeder und jede sie verstehen kann!
                   </p>
                 </div>
               </div>
@@ -254,8 +254,7 @@ export default function Konzept() {
                   <p className="text-lg text-foreground/80 leading-relaxed">
                     Alica bringt ihre Leidenschaft für Kunst und ihre Erfahrung in der 
                     Kunstgeschichte und der kreativen Bildung in das Projekt ein. Sie ist 
-                    verantwortlich für die künstlerische Ausrichtung und die Entwicklung 
-                    der Charaktere.
+                    verantwortlich für die künstlerische Ausrichtung und die redaktionelle Aufarbeitung.
                   </p>
                   
                   <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl p-6 border border-border-color">
