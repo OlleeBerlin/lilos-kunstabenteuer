@@ -130,6 +130,25 @@ const themes: Theme[] = [
       footerText: '#1E293B',
     },
   },
+  {
+    name: 'Rahmen',
+    logo: '/logo-rahmen.svg',
+    colors: {
+      primary: '#8B5A2B', // Warmes Braun
+      secondary: '#D4AF37', // Gold
+      accent: '#CD853F', // Perubraun
+      primaryHover: '#7A4F26',
+      secondaryHover: '#B8941F',
+      accentHover: '#B87333',
+      background: '#FDF5E6', // Altweiß
+      foreground: '#2F1B14',
+      cardBg: '#FFF8DC', // Cornsilk
+      borderColor: '#D2B48C', // Tan
+      headerBg: '#F5DEB3', // Weizen
+      footerBg: '#F5DEB3', // Weizen
+      footerText: '#2F1B14',
+    },
+  },
 ];
 
 export default function ThemeSwitcher() {
