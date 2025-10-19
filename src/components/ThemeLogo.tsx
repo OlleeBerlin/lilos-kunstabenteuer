@@ -55,8 +55,9 @@ export default function ThemeLogo({
       alt="Lilos Kunstabenteuer Logo"
       width={width}
       height={height}
-      className={className}
+      className={`${className} drop-shadow-md`}
       priority={priority}
+      style={{ filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15))' }}
     />
   );
 }
