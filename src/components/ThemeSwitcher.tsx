@@ -18,7 +18,6 @@ interface Theme {
     borderColor?: string;
     footerBg?: string;
     footerText?: string;
-    headerBg?: string;
   };
 }
 
@@ -93,25 +92,6 @@ const themes: Theme[] = [
       footerText: '#2D5016',
     },
   },
-  {
-    name: 'Neu',
-    logo: '/logo-neu.svg',
-    colors: {
-      primary: '#FF6B6B', // Koralle
-      secondary: '#4ECDC4', // Türkis
-      accent: '#FFE66D', // Sonnengelb
-      primaryHover: '#EE5A52',
-      secondaryHover: '#45B8AF',
-      accentHover: '#FFD93D',
-      background: '#FAF3E0', // Warmes Beige
-      foreground: '#2C3E50',
-      cardBg: '#FFF8E7', // Helles Creme
-      borderColor: '#E8DCC4',
-      headerBg: '#E8E2D9', // Mittelwarmes Grau - besserer Kontrast
-      footerBg: '#E8E2D9', // Mittelwarmes Grau - besserer Kontrast
-      footerText: '#2C3E50',
-    },
-  },
 ];
 
 export default function ThemeSwitcher() {
@@ -145,7 +125,6 @@ export default function ThemeSwitcher() {
       root.style.setProperty('--foreground', theme.colors.foreground);
       root.style.setProperty('--card-bg', theme.colors.cardBg || theme.colors.background);
       root.style.setProperty('--border-color', theme.colors.borderColor || theme.colors.foreground);
-      root.style.setProperty('--header-bg', theme.colors.headerBg || theme.colors.background);
       root.style.setProperty('--footer-bg', theme.colors.footerBg || '#263238');
       root.style.setProperty('--footer-text', theme.colors.footerText || '#FFFFFF');
     } else {
@@ -154,7 +133,6 @@ export default function ThemeSwitcher() {
       root.style.setProperty('--foreground', '#263238');
       root.style.setProperty('--card-bg', '#FFFFFF');
       root.style.setProperty('--border-color', '#E5E7EB');
-      root.style.setProperty('--header-bg', '#FFFFFF');
       root.style.setProperty('--footer-bg', '#263238');
       root.style.setProperty('--footer-text', '#FFFFFF');
     }

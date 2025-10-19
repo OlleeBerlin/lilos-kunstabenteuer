@@ -17,7 +17,6 @@
   --accent-hover: #F57C00;
   --card-bg: #FFFFFF;
   --border-color: #E5E7EB;
-  --header-bg: #FFFFFF;
 }
 
 @theme inline {
@@ -47,7 +46,6 @@
   /* Theme-System Farben */
   --color-card-bg: var(--card-bg);
   --color-border-color: var(--border-color);
-  --color-header-bg: var(--header-bg);
   --color-footer-bg: var(--footer-bg);
   --color-footer-text: var(--footer-text);
   
