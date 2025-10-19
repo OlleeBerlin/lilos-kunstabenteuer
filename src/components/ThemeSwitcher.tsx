@@ -92,6 +92,25 @@ const themes: Theme[] = [
       footerText: '#2D5016',
     },
   },
+  {
+    name: 'Neu',
+    logo: '/logo-neu.svg',
+    colors: {
+      primary: '#FF6B6B', // Koralle
+      secondary: '#4ECDC4', // Türkis
+      accent: '#FFE66D', // Sonnengelb
+      primaryHover: '#EE5A52',
+      secondaryHover: '#45B8AF',
+      accentHover: '#FFD93D',
+      background: '#FAF3E0', // Warmes Beige
+      foreground: '#2C3E50',
+      cardBg: '#FFF8E7', // Helles Creme
+      borderColor: '#E8DCC4',
+      headerBg: '#E8E2D9', // Mittelwarmes Grau - besserer Kontrast
+      footerBg: '#E8E2D9', // Mittelwarmes Grau - besserer Kontrast
+      footerText: '#2C3E50',
+    },
+  },
 ];
 
 export default function ThemeSwitcher() {
