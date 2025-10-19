@@ -106,13 +106,8 @@ export default function Konzept() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                   <div>
                     <p className="text-xl text-foreground/80 leading-relaxed mb-8">
-                      <strong>YouTube ist unser Zuhause</strong> – hier schlägt das Herz von Lilos Kunstabenteuer. Im Mittelpunkt steht <strong>LILO</strong>, die coole große Schwester und ansteckend freundliche Lehrerin, die <strong>Kunstepochen, berühmte Künstler und Künstlerinnen, spannende Ausstellungen, Galerien und Museen</strong> mit Begeisterung und Herzlichkeit zum Leben erweckt.
+                      <strong>YouTube ist unser Zuhause</strong> – hier schlägt das Herz von Lilos Kunstabenteuer. Im Mittelpunkt steht <strong>LILO</strong>, die coole große Schwester und ansteckend freundliche Lehrerin, die <strong>Kunstepochen, berühmte Künstler und Künstlerinnen, spannende Ausstellungen, Galerien und Museen</strong> mit Begeisterung und Herzlichkeit zum Leben erweckt. Sie macht aus Van Gogh eine faszinierende Persönlichkeit, aus der Renaissance ein spannendes Abenteuer und aus jedem Museum einen Ort voller Geheimnisse.
                     </p>
-                    <div className="bg-card-bg rounded-2xl p-6 border border-border-color">
-                      <p className="text-foreground/80 font-medium mb-4">
-                        Sie macht aus Van Gogh eine faszinierende Persönlichkeit, aus der Renaissance ein spannendes Abenteuer und aus jedem Museum einen Ort voller Geheimnisse.
-                      </p>
-                    </div>
                   </div>
 
                   {/* Platform Cards */}
