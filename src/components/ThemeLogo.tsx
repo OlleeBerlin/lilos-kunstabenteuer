@@ -50,7 +50,7 @@ export default function ThemeLogo({
   }, []);
 
   return (
-    <div className="bg-white rounded-full p-1 shadow-lg">
+    <div className="bg-white/90 backdrop-blur-sm rounded-lg p-1 shadow-sm">
       <Image
         src={logoPath}
         alt="Lilos Kunstabenteuer Logo"
