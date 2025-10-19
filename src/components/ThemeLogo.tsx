@@ -57,6 +57,7 @@ export default function ThemeLogo({
       height={height}
       className={className}
       priority={priority}
+      style={{ background: 'transparent' }}
     />
   );
 }
