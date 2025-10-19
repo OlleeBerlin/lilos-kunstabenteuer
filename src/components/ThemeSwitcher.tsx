@@ -113,7 +113,7 @@ const themes: Theme[] = [
   },
   {
     name: 'NurSchrift',
-    logo: '/logo-neunurschrift.svg',
+    logo: '/logo-nurschrift.svg',
     colors: {
       primary: '#2563EB', // Kräftiges Blau
       secondary: '#DC2626', // Kräftiges Rot
