@@ -107,8 +107,8 @@ const themes: Theme[] = [
       foreground: '#2C3E50',
       cardBg: '#FFF8E7', // Helles Creme
       borderColor: '#E8DCC4',
-      headerBg: '#F5F1ED', // Sehr helles warmes Grau
-      footerBg: '#F5F1ED', // Sehr helles warmes Grau
+      headerBg: '#E8E2D9', // Mittelwarmes Grau - besserer Kontrast
+      footerBg: '#E8E2D9', // Mittelwarmes Grau - besserer Kontrast
       footerText: '#2C3E50',
     },
   },
